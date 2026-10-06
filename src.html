@@ -295,6 +295,23 @@ h2.yolbas{opacity:1;color:var(--c)}
 .w-yardim{padding:8px 10px;border-radius:12px;background:rgba(255,255,255,.07);margin-top:6px;font-weight:700;font-size:14px}
 .w-yardim.yeni{background:rgba(244,63,94,.35);animation:shake .5s 3}
 .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#888;margin-right:6px}.dot.on{background:var(--ok);box-shadow:0 0 8px var(--ok)}.dot.off{background:var(--bad)}
+.w-skor{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.w-skor span{padding:6px 11px;border-radius:99px;background:rgba(255,255,255,.1);font-weight:800;font-size:14px}
+.w-skor .ok{background:rgba(34,197,94,.25)}.w-skor .bad{background:rgba(239,68,68,.25)}.w-skor .puan{background:var(--gold);color:#3b2600}
+.w-opt.yanlis{border-color:var(--bad);background:#fee2e2}.w-tag.bad{background:var(--bad)}
+.lv-ara{position:sticky;top:0;z-index:5;padding:10px 0;background:linear-gradient(var(--bg1) 70%,transparent)}
+.lv-grup{margin-top:18px}.lv-grup h3{font-size:17px;font-weight:900;margin-bottom:4px}
+.lv-grup p{margin:0 0 10px;font-size:13px;opacity:.8;line-height:1.45}
+.lv-izgara{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:10px}
+.lv{background:#fff;color:var(--ink);border-radius:16px;padding:10px 8px;text-align:center;font-size:12px;font-weight:700;line-height:1.3;animation:popIn .4s var(--spring) both}
+.lv .isaret{width:70px;height:70px;display:block;margin:0 auto 6px}
+.bilgi{margin-bottom:14px}.bilgi h3{font-size:17px;font-weight:900;margin-bottom:10px}
+.bilgi table{width:100%;border-collapse:collapse;font-size:13.5px}
+.bilgi th,.bilgi td{padding:7px 6px;border-bottom:1px solid var(--glass-b);text-align:left;vertical-align:top}
+.bilgi th{font-size:12px;opacity:.75;font-weight:800}.bilgi td b{color:var(--gold)}
+.bilgi .tw{overflow-x:auto;margin:0 -4px}.bilgi ul{margin:0;padding-left:18px;line-height:1.6;font-size:14px}
+.bilgi .sekil{display:flex;align-items:center;gap:10px}.bilgi .sekil .isaret{width:40px;height:40px;flex:none}
+@media (min-width:960px){.bilgiler{columns:2;column-gap:16px}.bilgiler .bilgi{break-inside:avoid}}
 #confetti{position:fixed;inset:0;pointer-events:none;z-index:60}
 
 /* ---------- formlar ---------- */
@@ -579,6 +596,8 @@ function anaSayfa() {
         <button class="tile" style="--i:3" id="t-yanlis"><span class="ic">📒</span>Yanlışlarım${yanlisN ? `<span class="badge-n">${yanlisN}</span>` : ""}</button>
         <button class="tile" style="--i:4" id="t-ekle"><span class="ic">✍️</span>Soru Ekle</button>
         <button class="tile" style="--i:5" id="t-ayar"><span class="ic">⚙️</span>Ayarlar</button>
+        <button class="tile" style="--i:6" id="t-levha"><span class="ic">🚦</span>Levhalar</button>
+        <button class="tile" style="--i:7" id="t-bilgi"><span class="ic">📘</span>Bilgiler</button>
       </div>
       <button class="sinav-kart" id="t-sinav"><span class="e">📝</span><span><b>Gerçek Sınav</b><small>50 soru · 45 dakika · geçme notu 70</small></span><span class="ok">→</span></button>
       ${S.sinavlar.length ? `<div class="gecmis" title="Son sınavlar">${S.sinavlar.slice(0, 6).map(x => `<span class="${x.gecti ? "g" : "k"}">${x.puan}${x.yardim ? "💞" : ""}<small>${new Date(x.t).toLocaleDateString("tr-TR", {day:"numeric", month:"short"})}</small></span>`).join("")}</div>` : ""}
@@ -614,6 +633,8 @@ function anaSayfa() {
     $("#t-ekle").onclick = soruEkle;
     $("#t-ayar").onclick = ayarlar;
     $("#t-sinav").onclick = sinavBaslat;
+    $("#t-levha").onclick = levhalar;
+    $("#t-bilgi").onclick = bilgiler;
     $("#yolsifir") && ($("#yolsifir").onclick = e => {
       if (!e.target.dataset.o) { e.target.dataset.o = 1; e.target.textContent = "Emin misin? Yıldızlar silinecek, tekrar dokun"; return; }
       S.yol[Y.id] = {}; save(); toast("↺", Y.ad + " sıfırlandı"); tutScroll = scrollY; anaSayfa();
@@ -963,7 +984,8 @@ const JOKER_LIMIT = {}; // jokerler sınırsız (sınır koymak için ör. {yari
 function canliDurum() {
   if (E) { const q = E.sorular[E.i];
     return {ekran:"sinav", qid:q.id, no:E.i, toplam:E.sorular.length, perm:q.perm, secim:E.secim[E.i], kalan:kalanSn(),
-      palet:E.secim.map(x => x >= 0 ? "x" : ".").join(""), elenen:[...elenen(q.id)], joker:E.joker}; }
+      palet:E.sorular.map((s, j) => E.secim[j] < 0 ? "." : E.secim[j] === s.dogruK ? "d" : "y").join(""), elenen:[...elenen(q.id)], joker:E.joker,
+      dogru:E.sorular.filter((s, j) => E.secim[j] === s.dogruK).length, yanlis:E.sorular.filter((s, j) => E.secim[j] >= 0 && E.secim[j] !== s.dogruK).length}; }
   if (T) { const q = T.sorular[T.i], cev = T.cevaplandi === T.i ? T.cevap[T.cevap.length - 1] : null;
     return {ekran:"test", ders:T.tip === "yanlis" ? "Yanlışlarım" : yolAd(T.yol), qid:q.id, no:T.i, toplam:T.sorular.length, perm:q.perm,
       secim:cev ? cev.k : -1, cevaplandi:!!cev, dogru:T.dogru, yanlis:T.cevap.filter(c => !c.ok).length,
@@ -1091,8 +1113,8 @@ function izleyici(kod) {
         const el = new Set(d.elenen || []);
         box.innerHTML = `<div class="qmeta" style="margin-top:0"><span class="dchip" style="--c:${DERS[dk(q)].c}">${DERS[dk(q)].ic} ${esc(DERS[dk(q)].ad)}${q.k ? " · " + esc(q.k) : ""}</span><span>${d.no + 1} / ${d.toplam}</span></div>
           <div class="qcard" style="animation:none">${gorsel(q)}${fmt(q.q)}</div>
-          ${(d.perm || []).map((oi, k) => `<div class="w-opt ${d.secim === k ? "onun" : ""} ${oi === q.a ? "dogru" : ""} ${el.has(oi) ? "elendi" : ""}"><span class="l">${"ABCD"[k]}</span><span class="t">${secenek(q, oi)}</span>
-            ${d.secim === k ? `<span class="w-tag">👉 onun seçimi</span>` : ""}${oi === q.a ? `<span class="w-tag ok">✅ doğru</span>` : ""}
+          ${(d.perm || []).map((oi, k) => `<div class="w-opt ${d.secim === k ? "onun" : ""} ${d.secim === k && oi !== q.a ? "yanlis" : ""} ${oi === q.a ? "dogru" : ""} ${el.has(oi) ? "elendi" : ""}"><span class="l">${"ABCD"[k]}</span><span class="t">${secenek(q, oi)}</span>
+            ${d.secim === k ? `<span class="w-tag ${oi === q.a ? "ok" : "bad"}">👉 onun seçimi ${oi === q.a ? "✓" : "✗"}</span>` : ""}${oi === q.a ? `<span class="w-tag ok">✅ doğru</span>` : ""}
             <button class="w-ele" data-oi="${oi}" ${oi === q.a || el.has(oi) || d.cevaplandi ? "disabled" : ""}>✂️ Ele</button></div>`).join("")}
           ${q.c ? `<div class="w-cozum"><b>Çözüm (sadece sende):</b> ${fmt(q.c)}</div>` : ""}`;
         box.querySelectorAll(".w-ele").forEach(b => b.onclick = () => gonder("ele", {qid:q.id, oi:+b.dataset.oi}));
@@ -1100,7 +1122,7 @@ function izleyici(kod) {
     }
     const aktif = d && (d.ekran === "test" || d.ekran === "sinav");
     oz.innerHTML = `<h3>${!d ? "Bekleniyor" : d.ekran === "sinav" ? "📝 Gerçek Sınav" : d.ekran === "test" ? "📚 " + esc(d.ders || "Test") : d.ekran === "sonuc" ? "🏁 Sonuç" : "🏠 Ana sayfa"}<span id="w-sure" class="sure" ${d?.ekran === "sinav" ? "" : "hidden"}></span></h3>
-      ${d?.ekran === "test" ? `<div class="row"><span>✅ Doğru ${d.dogru} · ❌ Yanlış ${d.yanlis}</span></div>` : ""}
+      ${aktif ? `<div class="w-skor"><span class="ok">✅ ${d.dogru} doğru</span><span class="bad">❌ ${d.yanlis} yanlış</span><span>⬜ ${d.palet.split("").filter(c => c === ".").length} boş</span>${d.ekran === "sinav" ? `<span class="puan">${d.dogru * 2} puan</span>` : ""}</div>` : ""}
       ${aktif && d.palet ? `<div class="wpalet">${[...d.palet].map((c, j) => `<i class="${c === "." ? "" : c} ${j === d.no ? "su" : ""}"></i>`).join("")}</div>` : ""}`;
     const J = (d && d.joker) || {};
     jk.innerHTML = JOK.map(([id, ad, ac]) => { const lim = JOKER_LIMIT[id], kalan = lim ? lim - (J[id] || 0) : null;
@@ -1153,6 +1175,126 @@ function izleyici(kod) {
   const ntfyGonder = () => { ntfyKonu = $("#w-ntfy").value.trim(); try { localStorage.setItem("ehliyet-izle-ntfy", ntfyKonu); } catch (e) {} gonder("ayar", {ntfy:ntfyKonu}, true); };
   $("#w-ntfy").onchange = ntfyGonder; ntfyGonder();
   ciz(); bagCiz();
+}
+
+/* ================= LEVHALAR ================= */
+const LEVHA_GRUP = [
+  ["t-", "⚠️ Tehlike uyarı işaretleri", "Kırmızı kenarlı beyaz üçgen. Yaklaşan bir tehlikeyi bildirir: hızını azalt, dikkatli ol."],
+  [/^(dur|yol-ver|y-)/, "⛔ Trafik tanzim işaretleri", "Kırmızı kenarlı daire = yasak veya sınırlama. DUR kırmızı sekizgen, YOL VER ters üçgen. Gri çapraz çizgili daire = yasağın/sınırlamanın sonu. Mavi daire içinde kırmızı çizgi = park/duraklama yasağı."],
+  ["m-", "🔵 Mecburi yön işaretleri", "Mavi daire, beyaz sembol. Gösterilen yöne/yola uymak zorunludur."],
+  ["b-", "ℹ️ Bilgi işaretleri", "Mavi kare/dikdörtgen: tesis, yol ve yön bilgisi. Sarı eşkenar dörtgen = ana yoldasın (geçiş önceliğin var)."],
+  ["isik-", "🚥 Işıklı işaretler", "Kırmızı: dur · Kırmızı + sarı: yeşile hazırlan, hareket etme · Yeşil: geç · Sarı: dur (duramayacak kadar yakınsan geç) · Yanıp sönen sarı: yavaşla, dikkatli geç · Yanıp sönen kırmızı: DUR levhası gibi."],
+  ["g-", "🚗 Gösterge paneli ışıkları", "Kırmızı = tehlike, güvenli yerde dur · Sarı/turuncu = uyarı, en kısa sürede kontrol ettir · Yeşil = sistem çalışıyor · Mavi = uzun far."],
+  ["c-", "🛣️ Yol çizgileri", "Kesik çizgi geçilebilir; devamlı çizgi geçilemez; yan yana kesik + devamlı çizgide yalnızca kesik çizgi tarafındaki araç geçebilir."]
+];
+function levhalar() {
+  const ids = Object.keys(ISARET), kullan = new Set();
+  const gruplar = LEVHA_GRUP.map(([on, ad, ac]) => {
+    const l = ids.filter(id => !kullan.has(id) && (typeof on === "string" ? id.startsWith(on) : on.test(id)));
+    l.forEach(id => kullan.add(id));
+    return {ad, ac, l};
+  });
+  goster(`
+  <div class="quiz">
+    <header class="top"><button class="btn ghost" id="geri">← Geri</button><h2 style="font-weight:900">🚦 Levhalar</h2><span style="width:80px"></span></header>
+    <div class="lv-ara"><input class="isim" id="lvara" placeholder="Ara: viraj, park, geçme, yağ…" style="margin:0" aria-label="Levha ara"></div>
+    ${gruplar.map(g => `<section class="lv-grup"><h3>${g.ad}</h3><p>${esc(g.ac)}</p>
+      <div class="lv-izgara">${g.l.map((id, i) => `<div class="lv" style="animation-delay:${Math.min(i, 12) * 30}ms" data-ad="${esc(ISARET[id][0].toLocaleLowerCase("tr"))}">${isaret(id)}${esc(ISARET[id][0])}</div>`).join("")}</div></section>`).join("")}
+  </div>`, () => {
+    $("#geri").onclick = anaSayfa;
+    $("#lvara").oninput = e => {
+      const a = e.target.value.trim().toLocaleLowerCase("tr");
+      app.querySelectorAll(".lv").forEach(x => { x.hidden = a && !x.dataset.ad.includes(a); });
+      app.querySelectorAll(".lv-grup").forEach(g => { g.hidden = ![...g.querySelectorAll(".lv")].some(x => !x.hidden); });
+    };
+  });
+}
+
+/* ================= BİLGİLER ================= */
+const tablo = (bas, satirlar) => `<div class="tw"><table><thead><tr>${bas.map(h => `<th>${h}</th>`).join("")}</tr></thead><tbody>${satirlar.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+const BILGI = [
+  ["🔺 Levhaların şekil ve renkleri", tablo(["Şekil / renk", "Anlamı"], [
+    [`<span class="sekil">${isaret("t-diger-tehlike")}Kırmızı kenarlı üçgen</span>`, "Tehlike uyarı — yavaşla, dikkatli ol"],
+    [`<span class="sekil">${isaret("y-tasit-kapali")}Kırmızı kenarlı daire</span>`, "Yasak veya sınırlama"],
+    [`<span class="sekil">${isaret("y-tum-yasak-sonu")}Gri çizgili beyaz daire</span>`, "Yasağın / sınırlamanın sonu"],
+    [`<span class="sekil">${isaret("m-ileri")}Mavi daire</span>`, "Mecburi yön / zorunluluk"],
+    [`<span class="sekil">${isaret("b-park")}Mavi kare</span>`, "Bilgi (tesis, yol, park yeri)"],
+    [`<span class="sekil">${isaret("dur")}Kırmızı sekizgen</span>`, "DUR — mutlaka dur, sonra yol ver"],
+    [`<span class="sekil">${isaret("yol-ver")}Ters üçgen</span>`, "YOL VER — ana yoldakine yol ver"],
+    [`<span class="sekil">${isaret("b-ana-yol")}Sarı eşkenar dörtgen</span>`, "Ana yol — geçiş önceliği sende"]])],
+  ["🚗 Hız sınırları (km/saat, aksine işaret yoksa)", tablo(["Araç", "Yerleşim içi", "Şehirlerarası", "Bölünmüş", "Otoyol"], [
+    ["Otomobil", "<b>50</b>", "<b>90</b>", "<b>110</b>", "<b>120</b>"],
+    ["Minibüs / Otobüs", "50", "80", "90", "100"],
+    ["Kamyonet", "50", "80", "85", "95"],
+    ["Panelvan", "50", "85", "100", "110"],
+    ["Kamyon / Çekici", "50", "80", "85", "90"],
+    ["Motosiklet (L3)", "50", "80", "90", "100"],
+    ["Motorlu bisiklet", "30", "45", "45", "giremez"],
+    ["Tehlikeli madde taşıyan", "30", "50", "60", "70"],
+    ["Lastik tekerlekli traktör", "20", "30", "40", "giremez"],
+    ["Arızalı aracı çeken", "20", "20", "30", "40"]]) +
+    `<ul style="margin-top:10px"><li>Römork çeken araç: aynı aracın hızından <b>10 km/s düşük</b> (ör. otomobil otoyolda 110)</li><li>Asgari hız: şehirlerarası <b>15</b>, otoyol <b>40</b> km/s</li><li>Servis freni bozuk aracı çeken: en fazla <b>15</b> km/s</li></ul>`],
+  ["📏 Mesafeler", `<ul>
+    <li>Takip mesafesi: hızın <b>en az yarısı kadar metre</b> (90 km/s → 45 m) ya da <b>2 saniye</b></li>
+    <li>Tehlikeli madde taşıyan araç, yerleşim dışında: en az <b>50 m</b></li>
+    <li>Kavşağa yaklaşırken şerit değiştirme yasağı: yerleşim içi <b>30 m</b>, dışı <b>150 m</b></li>
+    <li>Kavşak, tünel, köprüye duraklama yasağı: yerleşim içi <b>5 m</b>, dışı <b>100 m</b></li>
+    <li>İşaret levhasına yaklaşırken duraklama yasağı: içi <b>15 m</b>, dışı <b>100 m</b></li>
+    <li>Yangın musluğu, okul, hastane, garaj giriş-çıkışı: <b>5 m</b> içinde park yasak</li>
+    <li>Toplu taşıma durak levhası: <b>15 m</b> içinde park yasak</li>
+    <li>İşaretsiz alt/üst geçit ve köprü: <b>10 m</b> içinde park yasak</li>
+    <li>Duraklama en fazla <b>5 dakika</b>; aşarsa park sayılır</li>
+    <li>Arızalı araç: <b>150 m</b>'den görülen reflektör; dönemeç/tepede önüne ve arkasına en az <b>30 m</b></li></ul>`],
+  ["🪪 Ehliyet sınıfları ve yaşlar", tablo(["Sınıf", "Araç", "Yaş"], [
+    ["M", "Motorlu bisiklet (moped)", "16"], ["A1", "125 cm³ / 11 kW'a kadar motosiklet", "16"], ["A2", "35 kW'a kadar motosiklet", "18"],
+    ["A", "Tüm motosikletler (2 yıl A2 gerekir, 24 yaşında aranmaz)", "20"], ["B1", "Dört tekerlekli motosiklet", "16"],
+    ["<b>B</b>", "<b>Otomobil ve kamyonet</b>", "<b>18</b>"], ["BE", "B aracı + <b>3.500 kg</b>'a kadar römork", "18"],
+    ["C1", "3.500–7.500 kg kamyon", "18"], ["C / CE", "Kamyon, çekici", "21"], ["D1", "Minibüs", "21"], ["D", "Otobüs", "24"],
+    ["F", "Lastik tekerlekli traktör", "18"], ["G", "İş makinesi", "18"]]) + `<ul style="margin-top:10px"><li>En az <b>ilkokul</b> mezunu olmak gerekir</li></ul>`],
+  ["⚖️ Ağırlık sınırları", `<ul>
+    <li><b>Kamyonet:</b> azami yüklü ağırlığı <b>3.500 kg</b>'ı geçmeyen yük taşıtı (B sınıfıyla kullanılır)</li>
+    <li><b>Hafif römork:</b> azami yüklü ağırlığı <b>750 kg</b>'ı geçmeyen römork</li>
+    <li><b>BE:</b> B aracına takılan, azami yüklü ağırlığı <b>3.500 kg</b>'a kadar römork</li>
+    <li><b>C1:</b> <b>3.500–7.500 kg</b> arası kamyon ve çekici</li>
+    <li>B sınıfıyla, ek eğitim ve sınav şartıyla <b>4.250 kg</b>'a kadar birleşik araç</li></ul>`],
+  ["🍺 Alkol, ceza puanı, aday sürücü", `<ul>
+    <li>Hususi otomobil: <b>0,50 promil</b> üstü yasak · diğer tüm araçlar ve aday sürücü: <b>0,20 promil</b></li>
+    <li>0,50 üstü ilk kez: belge <b>6 ay</b>, 5 yıl içinde ikinci: <b>2 yıl</b>, sonrakiler: <b>5'er yıl</b> geri alınır</li>
+    <li>Bir yılda <b>100 ceza puanı</b>: ilk <b>2 ay</b>, ikinci <b>4 ay</b> geri alma; üçüncüde belge <b>iptal</b></li>
+    <li>Ölümlü kazada asli kusur: belge <b>1 yıl</b> geri alınır</li>
+    <li>Aday sürücülük <b>2 yıl</b>; <b>75 ceza puanını</b> aşan ya da 0,20 promil üstü yakalanan adayın belgesi iptal</li></ul>`],
+  ["🚑 Geçiş üstünlüğü ve kavşak", `<ul>
+    <li>Geçiş üstünlüğü sırası: <b>1) Cankurtaran 2) İtfaiye 3) Polis / zabıta</b> 4) trafik görevlisi 5) afet araçları 6) üst makam araçları</li>
+    <li>Sarı tepe lambası geçiş üstünlüğü <b>vermez</b></li>
+    <li>Kollar eşit kavşakta: <b>soldaki araç sağdan gelene</b> yol verir; dönen araç yayaya yol verir</li>
+    <li>Dönel kavşakta öncelik <b>kavşak içindeki</b> araçlarındır; ana yoldaki tali yoldakine göre önceliklidir</li>
+    <li>Dar eğimli yolda <b>inen araç</b> çıkana yol verir</li>
+    <li>Trafik polisinin <b>sağ ve sol kol</b> yönü açık, <b>önü ve arkası</b> kapalı; bir kol yukarı bir kol aşağı = dikkat, tüm yönler kapalı</li></ul>`],
+  ["💡 Işıklar ve farlar", `<ul>
+    <li>Uzun far: yerleşim dışında gece, karşıdan araç yokken</li>
+    <li>Kısa far: karşılaşmada, öndeki aracı yakından izlerken, gündüz sis/yağışta</li>
+    <li>Sadece park veya sis ışığıyla seyretmek ve sinyali "geç" anlamında kullanmak <b>yasak</b></li></ul>`],
+  ["❤️ İlk yardım temel değerleri", `<ul>
+    <li>Temel yaşam desteği (yetişkin): <b>30 bası : 2 soluk</b>, dakikada <b>100–120</b> bası, <b>5–6 cm</b> derinlik</li>
+    <li>Bebek ve çocukta önce <b>5 kurtarıcı soluk</b>; bası derinliği bebek ~<b>4 cm</b>, çocuk ~<b>5 cm</b></li>
+    <li>Solunum kontrolü: bak-dinle-hisset, en fazla <b>10 saniye</b></li>
+    <li>Acil numara: <b>112</b> · KBK: <b>Koruma – Bildirme – Kurtarma</b></li>
+    <li>Yetişkinde boğulma: <b>5 sırt vuruşu + 5 karın bası</b>; bebekte karına bası yapılmaz</li>
+    <li>Yanık: en az <b>20 dakika</b> tazyiksiz serin su; kabarcık patlatılmaz</li></ul>`],
+  ["🔧 Gösterge ışığı renkleri", `<ul>
+    <li><b>Kırmızı:</b> tehlike — güvenli yerde dur, motoru kapat (yağ, akü şarj, fren, hararet)</li>
+    <li><b>Sarı/turuncu:</b> uyarı — en kısa sürede kontrol ettir (motor arıza, ABS, yakıt az, lastik basıncı)</li>
+    <li><b>Yeşil:</b> sistem çalışıyor (sinyal, kısa far) · <b>Mavi:</b> uzun far</li>
+    <li>Lastik diş derinliği en az <b>1,6 mm</b></li></ul>`],
+  ["📝 Sınav", `<ul><li><b>50 soru</b>, <b>45 dakika</b>, 4 şık · geçme notu <b>70</b> (en az 35 doğru)</li>
+    <li>İlk Yardım 12 · Trafik ve Çevre 23 · Araç Tekniği 9 · Trafik Adabı 6</li><li>Yanlış doğruyu götürmez — boş bırakma!</li></ul>`]
+];
+function bilgiler() {
+  goster(`
+  <div class="quiz" style="max-width:1000px">
+    <header class="top"><button class="btn ghost" id="geri">← Geri</button><h2 style="font-weight:900">📘 Bilgiler</h2><span style="width:80px"></span></header>
+    <div class="bilgiler stagger">${BILGI.map(([b, ic], i) => `<section class="panel glass bilgi" style="--i:${i}"><h3>${b}</h3>${ic}</section>`).join("")}</div>
+  </div>`, () => { $("#geri").onclick = anaSayfa; });
 }
 
 /* ================= AYARLAR ================= */
