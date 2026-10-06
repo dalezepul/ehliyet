@@ -1,0 +1,16 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "odalar": {
+      "$kod": {
+        ".read": "$kod.length >= 12",
+        ".write": "$kod.length >= 12 && $kod.length <= 40",
+        "durum": { ".validate": "newData.hasChildren(['ts'])" },
+        "komut": { "$id": { ".validate": "newData.hasChildren(['tip', 'ts'])" } },
+        "yardim": { "$id": { ".validate": "newData.hasChildren(['ts'])" } },
+        "$diger": { ".validate": false }
+      }
+    }
+  }
+}

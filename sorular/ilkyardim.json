@@ -1,0 +1,1302 @@
+[
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımın tanımı ve amaçları",
+  "q": "Herhangi bir kaza ya da yaşamı tehlikeye düşüren bir durumda, sağlık görevlilerinin tıbbi yardımı sağlanıncaya kadar ilaçsız olarak olay yerinde mevcut araç ve gereçlerle yapılan uygulamalara ne ad verilir?",
+  "o": [
+   "İlk yardım",
+   "Acil tedavi",
+   "Hasta bakımı",
+   "Ayakta tedavi"
+  ],
+  "a": 0,
+  "c": "Olay yerinde, ilaç kullanmadan ve eldeki imkânlarla sağlık ekibi gelene kadar yapılan uygulamalar ilk yardımdır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımın tanımı ve amaçları",
+  "q": "Aşağıdakilerden hangisi ilk yardımın amaçlarından biri **değildir**?",
+  "o": [
+   "Yaralıya uygun ilacı vererek tedaviye başlamak",
+   "Hayati tehlikeyi ortadan kaldırmak",
+   "Yaşamsal fonksiyonların sürdürülmesini sağlamak",
+   "Hasta veya yaralının durumunun kötüleşmesini önlemek"
+  ],
+  "a": 0,
+  "c": "İlk yardımda ilaç verilmez ve tedavi yapılmaz; tedavi sağlık personelinin işidir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımın tanımı ve amaçları",
+  "q": "İlk yardımın temel uygulamaları olan \"KBK\" kısaltmasının açılımı aşağıdakilerden hangisidir?",
+  "o": [
+   "Kontrol – Bandaj – Kanama",
+   "Koruma – Bakım – Kontrol",
+   "Koruma – Bildirme – Kurtarma",
+   "Kurtarma – Bildirme – Kaldırma"
+  ],
+  "a": 2,
+  "c": "İlk yardımın temel uygulamaları Koruma, Bildirme ve Kurtarmadır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımın tanımı ve amaçları",
+  "q": "I. Olay yerinde tehlikeleri belirleyerek güvenli bir çevre oluşturmak\nII. Olayı en kısa sürede 112'ye bildirmek\nIII. Kazazedeye olay yerinde hızlı ve doğru müdahale etmek\nVerilenlerden hangileri ilk yardımın temel uygulamaları arasındadır?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Koruma (I), bildirme (II) ve kurtarma (III) ilk yardımın üç temel uygulamasıdır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımın tanımı ve amaçları",
+  "q": "Acil tedavi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Sağlık personeli tarafından tıbbi araç ve ilaç kullanılarak yapılır.",
+   "Olay yerindeki herkes tarafından ilaçsız olarak yapılır.",
+   "Yalnızca kazazedenin yakınları tarafından uygulanır.",
+   "İlk yardımcının yaptığı uygulamaların genel adıdır."
+  ],
+  "a": 0,
+  "c": "Acil tedavi; hekim ve sağlık personelinin tıbbi malzeme ve ilaçla yaptığı müdahaledir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımın tanımı ve amaçları",
+  "q": "Birden fazla yaralının bulunduğu bir kazada ilk yardımcı **öncelikle** hangi yaralıya müdahale etmelidir?",
+  "o": [
+   "Bağırarak yardım isteyen yaralıya",
+   "Kolunda kapalı kırık şüphesi olan yaralıya",
+   "Solunumu ve dolaşımı tehlikede olan yaralıya",
+   "Yüzünde yüzeysel sıyrıklar bulunan yaralıya"
+  ],
+  "a": 2,
+  "c": "Önce hayati tehlikesi olan, yani hava yolu, solunum ve dolaşımı tehlikede olan yaralıya müdahale edilir; sessiz yaralı daha ağır olabilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımcının özellikleri",
+  "q": "Aşağıdakilerden hangisi bir ilk yardımcıda bulunması gereken özelliklerden biri **değildir**?",
+  "o": [
+   "Yaralının durumuna göre ilaç seçip uygulayabilmek",
+   "Sakin, kendine güvenen ve pratik olmak",
+   "Çevredeki kişileri organize edebilmek",
+   "Yaralıyla ve 112 ile etkili iletişim kurabilmek"
+  ],
+  "a": 0,
+  "c": "İlk yardımcı ilaç uygulamaz; sakin, pratik ve iletişimi güçlü olmalıdır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımcının özellikleri",
+  "q": "İlk yardımcının olay yerinde yaralıya kendini tanıtmasının temel amacı aşağıdakilerden hangisidir?",
+  "o": [
+   "Yaralıdan ücret talep etmek",
+   "Yaralıya güven vermek ve onun iş birliğini sağlamak",
+   "Yaralının yakınlarına haber vermek",
+   "Kazanın kusurlusunu belirlemek"
+  ],
+  "a": 1,
+  "c": "Kendini tanıtan ilk yardımcı kazazedeye güven verir, kaygısını azaltır ve iş birliğini kolaylaştırır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "İlk yardımcının özellikleri",
+  "q": "İlk yardımcının yaralıya yaklaşımıyla ilgili aşağıdakilerden hangisi **yanlıştır**?",
+  "o": [
+   "Yaralıya moral vermeli ve onu sakinleştirmelidir.",
+   "Kendi güvenliğini tehlikeye atmamalıdır.",
+   "Bilgisi ve becerisi olmadığı uygulamaları da denemelidir.",
+   "Yaralıyı gereksiz yere hareket ettirmemelidir."
+  ],
+  "a": 2,
+  "c": "İlk yardımcı bilmediği bir uygulamayı denememelidir; yanlış müdahale yaralıya zarar verebilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hayat kurtarma zinciri",
+  "q": "Aşağıdakilerden hangisi hayat kurtarma zincirinin halkalarından biri **değildir**?",
+  "o": [
+   "Yaralıya olay yerinde ağrı kesici verilmesi",
+   "Sağlık kuruluşuna (112) haber verilmesi",
+   "Olay yerinde temel yaşam desteği yapılması",
+   "Ambulans ekibince müdahale edilmesi"
+  ],
+  "a": 0,
+  "c": "Hayat kurtarma zincirinde ilaç uygulaması yer almaz; zincir bildirim, temel yaşam desteği ve profesyonel bakımı kapsar."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hayat kurtarma zinciri",
+  "q": "Hayat kurtarma zinciri ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Zincir yalnızca hastanede başlar.",
+   "Halkalardan biri aksarsa yaralının yaşama şansı azalır.",
+   "Zincirde ilk yardımcının hiçbir rolü yoktur.",
+   "Halkaların sırası önemli değildir."
+  ],
+  "a": 1,
+  "c": "Zincirin halkaları birbirine bağlıdır; birinin eksik kalması hayatta kalma olasılığını düşürür."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Olay yeri değerlendirmesi ve güvenliği",
+  "q": "Trafik kazası yerinde güvenliği sağlamak amacıyla aşağıdakilerden hangisi yapılmaz?",
+  "o": [
+   "Kazaya karışan aracın kontağının kapatılması",
+   "Uygun mesafeye reflektör (yansıtıcı üçgen) konulması",
+   "Kaza yapan aracın yanında sigara içilmesi",
+   "Meraklı kalabalığın olay yerinden uzaklaştırılması"
+  ],
+  "a": 2,
+  "c": "Sızan yakıt nedeniyle yangın tehlikesi olduğundan olay yerinde sigara içilmez."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Olay yeri değerlendirmesi ve güvenliği",
+  "q": "I. Kaza yerine yansıtıcı üçgen koymak\nII. Kazaya karışan aracın kontağını kapatmak\nIII. Yaralıları hiçbir değerlendirme yapmadan araçtan çıkarmak\nVerilenlerden hangileri olay yeri güvenliği için yapılması gereken uygulamalardandır?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 1,
+  "c": "Yansıtıcı üçgen ve kontağın kapatılması güvenliği sağlar; yaralılar ancak hayati tehlike varsa acil olarak çıkarılır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Olay yeri değerlendirmesi ve güvenliği",
+  "q": "Kaza yerindeki yaralının araçtan **hemen** çıkarılmasını gerektiren durum aşağıdakilerden hangisidir?",
+  "o": [
+   "Yaralının kolunda kırık şüphesi bulunması",
+   "Yaralının bacağında sıyrık bulunması",
+   "Hava sıcaklığının yüksek olması",
+   "Araçta yangın ya da patlama tehlikesi bulunması"
+  ],
+  "a": 3,
+  "c": "Yangın, patlama gibi hayati tehlike varsa yaralı beklemeden araçtan çıkarılır; aksi hâlde sağlık ekibi beklenir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Olay yeri değerlendirmesi ve güvenliği",
+  "q": "Elektrik çarpması sonucu yerde yatan bir kişiye yardım edecek ilk yardımcının **ilk** yapması gereken nedir?",
+  "o": [
+   "Elektrik akımını kesmek veya kişiyi kuru, yalıtkan bir cisimle akımdan uzaklaştırmak",
+   "Kişiye hemen çıplak elle dokunarak bilincini kontrol etmek",
+   "Kişinin yanıklarını suyla soğutmak",
+   "Kişiyi koma pozisyonuna getirmek"
+  ],
+  "a": 0,
+  "c": "Akım kesilmeden kazazedeye dokunulursa ilk yardımcı da çarpılır; önce güvenlik sağlanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "112 acil çağrı",
+  "q": "112 acil çağrı merkezi arandığında aşağıdakilerden hangisi yapılmamalıdır?",
+  "o": [
+   "Olay yerinin adresini açık ve net söylemek",
+   "Görevli sorularını bitirmeden telefonu kapatmak",
+   "Yaralı sayısını ve durumunu bildirmek",
+   "Sakin olmak ve sorulan sorulara cevap vermek"
+  ],
+  "a": 1,
+  "c": "Telefonu görevli kapatmalıdır; görevli talimat vermeye devam edebilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "112 acil çağrı",
+  "q": "I. Olayın ne olduğu ve olay yerinin adresi\nII. Yaralıların sayısı ve durumları\nIII. Arayan kişinin adı ve kullandığı telefon numarası\n112 arandığında verilenlerden hangileri bildirilmelidir?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Olay, adres, yaralı sayısı-durumu ve arayanın kimliği ile telefon numarası bildirilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "112 acil çağrı",
+  "q": "Tek başına olan bir ilk yardımcı, tepkisiz ve normal solunumu olmayan bir yetişkini fark ettiğinde aşağıdakilerden hangisini yapmalıdır?",
+  "o": [
+   "112'yi aramadan 30 dakika boyunca temel yaşam desteği yapmalıdır.",
+   "Yaralıyı bırakıp yardım çağırmak için uzaklaşmalı, dönünce değerlendirme yapmalıdır.",
+   "Önce 112'yi aramalı, telefonu hoparlöre alarak temel yaşam desteğine başlamalıdır.",
+   "Yaralıyı koma pozisyonuna getirip beklemelidir."
+  ],
+  "a": 2,
+  "c": "Yetişkinde önce 112 aranır; telefon hoparlöre alınarak görevlinin yönlendirmesiyle göğüs basısına başlanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Vücut sistemleri",
+  "q": "Temiz kanı kalpten vücuda taşıyan damarlara ne ad verilir?",
+  "o": [
+   "Toplardamar",
+   "Kılcal damar",
+   "Lenf damarı",
+   "Atardamar"
+  ],
+  "a": 3,
+  "c": "Atardamarlar kanı kalpten vücuda taşır; toplardamarlar ise kanı kalbe geri getirir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Vücut sistemleri",
+  "q": "Atardamar ile toplardamarlar arasında bağlantıyı sağlayan ve gaz alışverişinin gerçekleştiği damarlar hangileridir?",
+  "o": [
+   "Kılcal damarlar",
+   "Şah damarları",
+   "Ana toplardamarlar",
+   "Akciğer atardamarları"
+  ],
+  "a": 0,
+  "c": "Doku ile kan arasındaki madde ve gaz alışverişi ince duvarlı kılcal damarlarda olur."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Vücut sistemleri",
+  "q": "Aşağıdakilerden hangisi solunum sisteminin organlarından biri **değildir**?",
+  "o": [
+   "Gırtlak",
+   "Mide",
+   "Soluk borusu",
+   "Akciğerler"
+  ],
+  "a": 1,
+  "c": "Mide sindirim sistemine aittir; gırtlak, soluk borusu ve akciğerler solunum sistemi organlarıdır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Vücut sistemleri",
+  "q": "Beyin ve omurilikten oluşan, vücudun tüm faaliyetlerini yöneten sistem aşağıdakilerden hangisidir?",
+  "o": [
+   "Dolaşım sistemi",
+   "Hareket sistemi",
+   "Merkezî sinir sistemi",
+   "Boşaltım sistemi"
+  ],
+  "a": 2,
+  "c": "Beyin ve omurilik merkezî sinir sistemini oluşturur."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Vücut sistemleri",
+  "q": "Omurilik vücutta hangi yapının içinde korunur?",
+  "o": [
+   "Göğüs kafesi",
+   "Kafatası",
+   "Leğen kemiği",
+   "Omurga"
+  ],
+  "a": 3,
+  "c": "Omurilik omurların oluşturduğu kanal içinde yer alır; omurga yaralanmalarında bu nedenle hareket ettirmekten kaçınılır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Vücut sistemleri",
+  "q": "Yetişkinlerde nabız genellikle hangi atardamardan kontrol edilir?",
+  "o": [
+   "Şah damarı (boyun)",
+   "Kasık atardamarı",
+   "Ayak sırtı atardamarı",
+   "Kol üst iç yüzündeki atardamar"
+  ],
+  "a": 0,
+  "c": "Yetişkinde nabız boyundaki şah damarından alınır; bebekte kol iç yüzündeki atardamar tercih edilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralının değerlendirilmesi",
+  "q": "Yetişkin bir yaralının bilinç durumu nasıl kontrol edilir?",
+  "o": [
+   "Yüzüne su serpilerek",
+   "Omuzlarına hafifçe dokunup \"İyi misiniz?\" diye seslenilerek",
+   "Şiddetle sarsılarak",
+   "Göğsüne sertçe vurularak"
+  ],
+  "a": 1,
+  "c": "Bilinç; omuzlara hafifçe dokunup yüksek sesle seslenerek değerlendirilir, yaralı sarsılmaz."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralının değerlendirilmesi",
+  "q": "Bebeklerde bilinç kontrolü nasıl yapılır?",
+  "o": [
+   "Bebek havaya kaldırılıp sallanarak",
+   "Yüzüne soğuk su dökülerek",
+   "Ayak tabanına hafifçe dokunularak veya vurularak",
+   "Göğsüne bastırılarak"
+  ],
+  "a": 2,
+  "c": "Bebeklerde bilinç, ayak tabanına hafifçe dokunularak ya da fiske vurularak kontrol edilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralının değerlendirilmesi",
+  "q": "İlk yardımda hasta veya yaralının değerlendirilmesinde kullanılan \"ABC\" kısaltmasındaki \"B\" neyi ifade eder?",
+  "o": [
+   "Bilinç kontrolünü",
+   "Kanamanın durdurulmasını",
+   "Kırıkların tespitini",
+   "Solunumun değerlendirilmesini"
+  ],
+  "a": 3,
+  "c": "A hava yolu açıklığı, B solunum, C dolaşımdır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralının değerlendirilmesi",
+  "q": "Solunumun bak-dinle-hisset yöntemiyle değerlendirilmesi en fazla kaç saniye sürmelidir?",
+  "o": [
+   "10",
+   "20",
+   "30",
+   "60"
+  ],
+  "a": 0,
+  "c": "Normal solunum 10 saniyeyi geçmeyecek şekilde bak-dinle-hisset yöntemiyle değerlendirilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralının değerlendirilmesi",
+  "q": "Bilinci kapalı ve boyun yaralanması şüphesi bulunmayan bir yaralıda hava yolunu açmak için hangi yöntem uygulanır?",
+  "o": [
+   "Baş geri-çene yukarı pozisyonu",
+   "Başın öne eğilmesi",
+   "Yaralının oturtulması",
+   "Bacakların yukarı kaldırılması"
+  ],
+  "a": 0,
+  "c": "Bilinçsiz kişide dil hava yolunu tıkayabilir; baş geri-çene yukarı pozisyonu hava yolunu açar."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralının değerlendirilmesi",
+  "q": "Bilinci kapalı yaralıda hava yolu tıkanmasının en sık nedeni aşağıdakilerden hangisidir?",
+  "o": [
+   "Burun kanaması",
+   "Dilin geriye kayması",
+   "Gözlerin kapalı olması",
+   "Kolların bükülü olması"
+  ],
+  "a": 1,
+  "c": "Bilinç kaybında kaslar gevşer ve dil geriye kayarak hava yolunu tıkar."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Yetişkinlerde temel yaşam desteği uygulanırken göğüs basısı ile kurtarıcı soluk oranı nasıl olmalıdır?",
+  "o": [
+   "15:1",
+   "15:2",
+   "30:2",
+   "30:5"
+  ],
+  "a": 2,
+  "c": "Yetişkinde 30 göğüs basısı ve 2 kurtarıcı soluk dönüşümlü uygulanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Temel yaşam desteğinde göğüs basısı dakikada kaç kez olacak hızda uygulanmalıdır?",
+  "o": [
+   "60-80",
+   "80-100",
+   "100-120",
+   "120-140"
+  ],
+  "a": 2,
+  "c": "Göğüs basısı her yaşta dakikada 100-120 hızında uygulanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Yetişkinde göğüs basısı uygulanırken göğüs kemiği ne kadar aşağı inmelidir?",
+  "o": [
+   "2-3 cm",
+   "3-4 cm",
+   "4-5 cm",
+   "5-6 cm"
+  ],
+  "a": 3,
+  "c": "Yetişkinde göğüs en az 5 cm, en fazla 6 cm çöktürülür."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Yetişkinde göğüs basısı için ellerin yerleştirileceği doğru bölge aşağıdakilerden hangisidir?",
+  "o": [
+   "Göğüs kemiğinin en üst ucu",
+   "Midenin üzeri",
+   "Göğüs kemiğinin alt yarısı (göğsün ortası)",
+   "Göğsün sol kenarı"
+  ],
+  "a": 2,
+  "c": "Eller göğüs kemiğinin alt yarısına, göğsün ortasına yerleştirilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Temel yaşam desteğine başlama kararı için sıradan bir ilk yardımcının esas alması gereken ölçüt aşağıdakilerden hangisidir?",
+  "o": [
+   "Yaralının bileğinden nabız alınamaması",
+   "Yaralının gözbebeklerinin büyük olması",
+   "Yaralının cildinin soluk görünmesi",
+   "Yaralının tepkisiz olması ve normal solunum yapmaması"
+  ],
+  "a": 3,
+  "c": "Güncel uygulamada sıradan kişi nabız aramaz; tepkisiz ve normal solunumu olmayan kişiye TYD başlanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Bebek ve çocuklarda temel yaşam desteğine başlanırken göğüs basısından önce kaç kurtarıcı soluk verilir?",
+  "o": [
+   "1",
+   "2",
+   "5",
+   "10"
+  ],
+  "a": 2,
+  "c": "Bebek ve çocuklarda solunum sorunu ön planda olduğundan önce 5 kurtarıcı soluk verilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Bebeklerde temel yaşam desteği uygulanırken göğüs yaklaşık kaç cm çöktürülmelidir?",
+  "o": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ],
+  "a": 1,
+  "c": "Bebekte göğüs ön-arka çapının yaklaşık üçte biri, yani yaklaşık 4 cm çöktürülür."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Çocuklarda temel yaşam desteği uygulanırken göğüs yaklaşık kaç cm çöktürülmelidir?",
+  "o": [
+   "3",
+   "5",
+   "7",
+   "9"
+  ],
+  "a": 1,
+  "c": "Çocukta göğüs ön-arka çapının yaklaşık üçte biri, yani yaklaşık 5 cm çöktürülür."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Güncel uygulamaya göre bebeklerde göğüs basısı hangi teknikle yapılması önerilir?",
+  "o": [
+   "Göğsü iki elle sararak iki başparmakla",
+   "Tek elin topuğuyla",
+   "İki elin topuğu üst üste konarak",
+   "Yumrukla"
+  ],
+  "a": 0,
+  "c": "Güncel kılavuzlar bebekte göğsü iki elle sarıp iki başparmakla bası yapılmasını önerir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Bebeklerde kurtarıcı soluk verilirken aşağıdakilerden hangisi uygulanır?",
+  "o": [
+   "Bebeğin burnu kapatılarak yalnızca ağzına güçlü soluk verilir.",
+   "İlk yardımcının ağzı bebeğin hem ağzını hem burnunu kapatacak şekilde yerleştirilir.",
+   "Baş geriye tamamen bükülerek uzun ve sert soluk verilir.",
+   "Soluk verilmez, yalnızca sırtına vurulur."
+  ],
+  "a": 1,
+  "c": "Bebekte ağızdan ağız-buruna yöntemi kullanılır; göğsü kaldıracak kadar yumuşak soluk verilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Başlanan temel yaşam desteği aşağıdaki durumlardan hangisinde sonlandırılabilir?",
+  "o": [
+   "İlk yardımcı birkaç bası sonra sonuç alamadığında",
+   "Yaralının yakınları olay yerine geldiğinde",
+   "Sağlık ekibi gelip uygulamayı devraldığında",
+   "Yaralının cildi morardığında"
+  ],
+  "a": 2,
+  "c": "TYD; sağlık ekibi devralana, yaralı normal solumaya başlayana ya da ilk yardımcı güvenlik nedeniyle veya tükenene kadar sürdürülür."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Tepkisiz bir yetişkinde görülen seyrek, hıçkırık benzeri, düzensiz nefes alma ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Normal solunumdur; yaralı yalnız bırakılır.",
+   "Yaralı oturur pozisyona getirilir.",
+   "Yaralıya su içirilir.",
+   "Normal solunum kabul edilmez; temel yaşam desteğine başlanır."
+  ],
+  "a": 3,
+  "c": "Bu tür \"can çekişme solunumu\" normal solunum değildir; kalp durması belirtisi sayılır ve TYD başlanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hava yolu tıkanıklığı",
+  "q": "Yemek yerken boğazına yiyecek kaçan bir yetişkin etkili şekilde öksürüyor ve konuşabiliyorsa ilk yardımcı ne yapmalıdır?",
+  "o": [
+   "Öksürmeye devam etmesi için cesaretlendirmeli ve izlemelidir.",
+   "Hemen karnına bası uygulamalıdır.",
+   "Parmağıyla boğazındaki cismi çıkarmaya çalışmalıdır.",
+   "Su içirerek cismi aşağı itmelidir."
+  ],
+  "a": 0,
+  "c": "Kısmi tıkanmada öksürük en etkili yöntemdir; müdahale edilmez, kişi öksürmeye teşvik edilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hava yolu tıkanıklığı",
+  "q": "Bilinci açık, öksüremeyen ve konuşamayan yetişkinde hava yolu tıkanıklığına yapılan ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Yaralı sırtüstü yatırılıp bacakları yükseltilir.",
+   "5 sırt vuruşu ve 5 karına bası dönüşümlü uygulanır.",
+   "Yaralıya hemen su içirilir.",
+   "Yaralı koma pozisyonuna getirilir."
+  ],
+  "a": 1,
+  "c": "Tam tıkanmada kürek kemikleri arasına 5 sırt vuruşu ve 5 karına bası (Heimlich) dönüşümlü yapılır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hava yolu tıkanıklığı",
+  "q": "Heimlich manevrasında ilk yardımcı yumruğunu nereye yerleştirmelidir?",
+  "o": [
+   "Göğüs kemiğinin tam ortasına",
+   "Kasık bölgesine",
+   "Göbeğin biraz üstüne, göğüs kemiğinin altına",
+   "Sırtın ortasına"
+  ],
+  "a": 2,
+  "c": "Yumruk göbek ile göğüs kemiğinin alt ucu arasına konur ve içe-yukarı doğru bastırılır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hava yolu tıkanıklığı",
+  "q": "Bebeklerde tam hava yolu tıkanıklığında aşağıdaki uygulamalardan hangisi yapılmaz?",
+  "o": [
+   "Yüzüstü kol üzerinde sırta vuruş",
+   "Sırtüstü çevrilerek göğüs basısı",
+   "Ağız içindeki görünen cismin alınması",
+   "Karına bası (Heimlich)"
+  ],
+  "a": 3,
+  "c": "Bebeklerde karın organları zarar görebileceği için karına bası yapılmaz; sırt vuruşu ve göğüs basısı uygulanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hava yolu tıkanıklığı",
+  "q": "I. Bebek yüzüstü, başı gövdesinden aşağıda olacak şekilde ilk yardımcının kolu üzerine yatırılır.\nII. Kürek kemikleri arasına 5 kez sırt vuruşu yapılır.\nIII. Bebek sırtüstü çevrilerek 5 kez göğüs basısı uygulanır.\nBilinci açık bebekte tam hava yolu tıkanıklığında verilenlerden hangileri uygulanır?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Bebekte başı aşağıda olacak şekilde 5 sırt vuruşu ve ardından 5 göğüs basısı dönüşümlü yapılır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Açık kırmızı renkte olan ve kalp atımlarıyla uyumlu olarak fışkırır tarzda akan kanama hangi damardan kaynaklanır?",
+  "o": [
+   "Atardamar",
+   "Toplardamar",
+   "Kılcal damar",
+   "Lenf damarı"
+  ],
+  "a": 0,
+  "c": "Atardamar kanaması açık kırmızı ve fışkırır tarzdadır; en tehlikeli dış kanama türüdür."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Dış kanamalarda ilk yardımcının **ilk** uygulaması gereken yöntem aşağıdakilerden hangisidir?",
+  "o": [
+   "Turnike uygulamak",
+   "Kanayan yere temiz bir bezle doğrudan baskı yapmak",
+   "Basınç noktasına bastırmak",
+   "Yaralıya sıvı içirmek"
+  ],
+  "a": 1,
+  "c": "Dış kanamada ilk olarak yaranın üzerine doğrudan baskı uygulanır; turnike son çaredir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Bacaktaki şiddetli kanamayı durdurmak için basınç uygulanacak nokta aşağıdakilerden hangisidir?",
+  "o": [
+   "Şah damarı",
+   "Köprücük kemiği arkası",
+   "Kasık",
+   "Şakak"
+  ],
+  "a": 2,
+  "c": "Bacak kanamalarında kasıkta uyluk atardamarına baskı uygulanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Koldaki ve omuzdaki kanamalarda hangi basınç noktasına bastırılır?",
+  "o": [
+   "Kasık",
+   "Diz arkası",
+   "Ayak bileği",
+   "Köprücük kemiğinin arkası"
+  ],
+  "a": 3,
+  "c": "Kol ve omuz kanamalarında köprücük kemiği arkasındaki atardamara baskı uygulanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Turnike uygulamasıyla ilgili aşağıdakilerden hangisi **yanlıştır**?",
+  "o": [
+   "Turnike için ip veya tel gibi ince malzemeler kullanılabilir.",
+   "Turnikenin uygulandığı saat not edilir.",
+   "Turnike tek kemikli bölgeye uygulanır.",
+   "Turnike, kol veya bacak kopmalarında uygulanabilir."
+  ],
+  "a": 0,
+  "c": "İp, tel gibi ince ve kesici malzemeler dokulara zarar verir; geniş bir bez veya hazır turnike kullanılır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "I. Kol ya da bacakta kopma olması\nII. Doğrudan baskıyla durdurulamayan şiddetli uzuv kanaması\nIII. Kılcal damardan sızıntı tarzında kanama\nVerilenlerden hangilerinde turnike uygulanabilir?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 1,
+  "c": "Turnike kopmalarda ve doğrudan baskıyla durmayan uzuv kanamalarında uygulanır; kılcal kanamada gerekmez."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Burun kanaması olan bilinci açık kişiye yapılan ilk yardımla ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Kişinin başı geriye doğru yatırılır.",
+   "Kişi oturtulur, başı hafifçe öne eğilir ve burun kanatları sıkıştırılır.",
+   "Kişi sırtüstü yatırılıp bacakları kaldırılır.",
+   "Kişiye sık sık sümkürmesi söylenir."
+  ],
+  "a": 1,
+  "c": "Baş geriye yatırılırsa kan yutulur; baş öne eğik tutularak burun kanatları sıkılır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Aşağıdakilerden hangisi iç kanama belirtilerinden biri **değildir**?",
+  "o": [
+   "Hızlı ve zayıf nabız",
+   "Soğuk, nemli ve soluk cilt",
+   "Yüzün kızarık, cildin sıcak ve kuru olması",
+   "Aşırı susuzluk hissi"
+  ],
+  "a": 2,
+  "c": "İç kanamada şok bulguları görülür: soluk, soğuk-nemli cilt, hızlı-zayıf nabız ve susuzluk."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Kulağından kan gelen yaralıya ilk yardımda aşağıdakilerden hangisi yapılmamalıdır?",
+  "o": [
+   "Yaralının hareket ettirilmemesi",
+   "112'nin aranması",
+   "Yaşamsal bulguların izlenmesi",
+   "Kulağın pamukla tıkanması"
+  ],
+  "a": 3,
+  "c": "Kulaktan gelen kan kafa tabanı kırığı belirtisi olabilir; kulak tıkanmaz, akışına izin verilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kanamalar",
+  "q": "Turnike uygulanan yaralıyla ilgili aşağıdakilerden hangisi yapılmalıdır?",
+  "o": [
+   "Uygulama saati yazılarak sağlık ekibine bildirilmeli ve turnikenin üstü açık bırakılmalıdır.",
+   "Turnikenin üzeri battaniyeyle örtülerek gizlenmelidir.",
+   "Turnike ilk yardımcı tarafından sık sık çıkarılıp yeniden takılmalıdır.",
+   "Turnike kanama durunca hemen tamamen çıkarılmalıdır."
+  ],
+  "a": 0,
+  "c": "Turnike saati not edilip ekibe bildirilir ve turnike görünür bırakılır; ilk yardımcı tarafından gevşetilmez."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Şok",
+  "q": "Dolaşım sisteminin yetersizliği nedeniyle dokulara yeterli kan gitmemesi sonucu ortaya çıkan, hayatı tehdit eden duruma ne ad verilir?",
+  "o": [
+   "Bayılma",
+   "Şok",
+   "Havale",
+   "Sıcak çarpması"
+  ],
+  "a": 1,
+  "c": "Şok, hayati organlara yeterli kan ve oksijen gitmemesiyle oluşan ciddi bir tablodur."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Şok",
+  "q": "Aşağıdakilerden hangisi şok belirtilerinden biridir?",
+  "o": [
+   "Yavaş ve dolgun nabız",
+   "Kızarık ve sıcak cilt",
+   "Soğuk, nemli ve soluk cilt",
+   "Derin ve yavaş solunum"
+  ],
+  "a": 2,
+  "c": "Şokta cilt soğuk, nemli ve soluk; nabız hızlı ve zayıf, solunum hızlı ve yüzeyseldir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Şok",
+  "q": "Bilinci açık, bacak ve omurga yaralanması olmayan şoktaki yaralıya hangi pozisyon verilir?",
+  "o": [
+   "Yüzüstü yatırılır.",
+   "Oturur pozisyonda başı öne eğilir.",
+   "Ayakta tutulup yürütülür.",
+   "Sırtüstü yatırılıp bacakları yaklaşık 30 cm yükseltilir."
+  ],
+  "a": 3,
+  "c": "Şok pozisyonunda yaralı sırtüstü yatırılır ve bacakları yaklaşık 30 cm yükseltilerek kanın hayati organlara dönüşü desteklenir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Şok",
+  "q": "Şoktaki yaralıya yapılacak ilk yardımla ilgili aşağıdakilerden hangisi **yanlıştır**?",
+  "o": [
+   "Susadığını söylerse bol su içirilir.",
+   "Üzeri örtülerek ısı kaybı önlenir.",
+   "Sıkan giysileri gevşetilir.",
+   "Yaşamsal bulguları sık sık kontrol edilir."
+  ],
+  "a": 0,
+  "c": "Şoktaki yaralıya ağızdan hiçbir şey verilmez; ameliyat gerekebilir ve kusma riski vardır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Şok",
+  "q": "I. Ciddi kan kaybı\nII. Ağır yanıklar\nIII. Şiddetli alerjik tepki\nVerilenlerden hangileri şoka neden olabilir?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Kan kaybı, yanıkla sıvı kaybı ve şiddetli alerjik tepki şoka yol açabilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yaralanmalar (kafa, omurga, göğüs, karın)",
+  "q": "Kulak ve burundan kan ya da açık renkli sıvı gelmesi ve göz çevresinde morluk görülmesi hangi yaralanmayı düşündürür?",
+  "o": [
+   "Köprücük kemiği kırığı",
+   "Kafa tabanı kırığı",
+   "Kaburga kırığı",
+   "Leğen kemiği kırığı"
+  ],
+  "a": 1,
+  "c": "Kulak-burundan kan veya sıvı gelmesi ve göz çevresi morluğu kafa tabanı kırığı belirtisidir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yaralanmalar (kafa, omurga, göğüs, karın)",
+  "q": "Omurga yaralanması şüphesi olan kazazedeye yaklaşımda aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Oturtularak ağrısı olup olmadığı sorulmalıdır.",
+   "Başı öne eğilerek hava yolu açılmalıdır.",
+   "Baş-boyun-gövde ekseni korunarak hareket ettirilmemelidir.",
+   "Yürüyüp yürüyemediği denenmelidir."
+  ],
+  "a": 2,
+  "c": "Omurga yaralısı gereksiz hareket ettirilmez; baş-boyun-gövde ekseni bozulmamalıdır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yaralanmalar (kafa, omurga, göğüs, karın)",
+  "q": "Göğsüne delici cisim batmış ve cisim hâlâ yerinde duran yaralıya yapılacak uygulama aşağıdakilerden hangisidir?",
+  "o": [
+   "Cisim hemen çekilerek çıkarılır.",
+   "Cisim çıkarılıp yaraya pamuk bastırılır.",
+   "Cisim kırılarak kısaltılır ve yaralı yürütülür.",
+   "Cisim çıkarılmadan etrafı desteklenerek sabitlenir."
+  ],
+  "a": 3,
+  "c": "Batan cisim çıkarılırsa ağır kanama olabilir; çıkarılmaz, sabitlenir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yaralanmalar (kafa, omurga, göğüs, karın)",
+  "q": "Göğsünde delici yaralanma bulunan bilinci açık bir yaralıya hangi pozisyon verilmelidir?",
+  "o": [
+   "Yarı oturur pozisyon",
+   "Sırtüstü yatıp bacakları yükseltilmiş pozisyon",
+   "Yüzüstü pozisyon",
+   "Baş aşağı pozisyon"
+  ],
+  "a": 0,
+  "c": "Delici göğüs yaralanmasında solunumu kolaylaştırmak için yarı oturur pozisyon verilir; bacaklar yükseltilmez."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yaralanmalar (kafa, omurga, göğüs, karın)",
+  "q": "Karın yaralanmasında iç organlar dışarı çıkmışsa ilk yardımcı ne yapmalıdır?",
+  "o": [
+   "Organları elle karın içine geri itmelidir.",
+   "Organların üzerini nemli, temiz bir bezle örtmelidir.",
+   "Yaraya toz antibiyotik dökmelidir.",
+   "Yaralıya bol su içirmelidir."
+  ],
+  "a": 1,
+  "c": "Dışarı çıkan organlar içeri sokulmaz; üzeri nemli temiz bezle örtülür, yaralıya bir şey içirilmez."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yaralanmalar (kafa, omurga, göğüs, karın)",
+  "q": "Kafa travması geçiren bir kişide aşağıdakilerden hangisi tehlike belirtisi olarak değerlendirilmelidir?",
+  "o": [
+   "Hafif kızarıklık",
+   "Kısa süreli heyecan",
+   "Bilinç düzeyinde giderek azalma ve tekrarlayan kusma",
+   "Ellerde sıcaklık hissi"
+  ],
+  "a": 2,
+  "c": "Kafa travması sonrası bilincin bulanması ve kusma beyin hasarını düşündürür; kişi yakından izlenir ve 112 aranır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yaralanmalar (kafa, omurga, göğüs, karın)",
+  "q": "I. Yaralının boynunu sabit tutmak\nII. Yaralıyı tek kişiyle kucakta taşımak\nIII. Yaralıyı sırt tahtası veya sert sedye ile taşımak\nOmurga yaralanması şüphesinde verilenlerden hangileri doğru uygulamalardır?",
+  "o": [
+   "Yalnız II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 1,
+  "c": "Boyun sabitlenir ve sert sedyeyle taşınır; kucakta taşımak omuriliğe zarar verebilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kırık, çıkık ve burkulma",
+  "q": "Aşağıdakilerden hangisi kırık belirtilerinden biri **değildir**?",
+  "o": [
+   "Şekil bozukluğu",
+   "Şişlik ve morluk",
+   "Hareket kaybı",
+   "Bölgede hiçbir ağrı olmaması"
+  ],
+  "a": 3,
+  "c": "Kırıkta ağrı, şekil bozukluğu, şişlik-morluk ve hareket kaybı görülür."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kırık, çıkık ve burkulma",
+  "q": "Kırık tespiti yapılırken aşağıdakilerden hangisine dikkat edilmelidir?",
+  "o": [
+   "Kırık bölgesinin bir üst ve bir alt eklemi de içine alınmalıdır.",
+   "Yalnızca kırık bölgesi sıkıca sarılmalıdır.",
+   "Kırık kemik önce yerine oturtulmalıdır.",
+   "Tespit malzemesi doğrudan çıplak cilde sert biçimde bağlanmalıdır."
+  ],
+  "a": 0,
+  "c": "Tespit, kırığın bir üst ve bir alt eklemini kapsamalı; atel ile cilt arası yumuşak malzemeyle desteklenmelidir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kırık, çıkık ve burkulma",
+  "q": "Açık kırığa yapılan ilk yardımla ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Dışarı çıkan kemik ucu yerine itilir.",
+   "Yaranın üzeri temiz bezle kapatılır, kemik uçları içeri itilmez.",
+   "Yara sıkıca dikilir.",
+   "Kırık bölge sıcak suyla yıkanır."
+  ],
+  "a": 1,
+  "c": "Açık kırıkta yara temiz bir örtüyle kapatılır, kemik içeri itilmez ve bulunduğu şekilde tespit edilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kırık, çıkık ve burkulma",
+  "q": "Çıkığa yapılan ilk yardımla ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Hemen çekilerek yerine oturtulur.",
+   "Bölge sıcak bezle ovulur.",
+   "Bulunduğu şekilde tespit edilir, yerine oturtulmaya çalışılmaz.",
+   "Yaralıdan eklemi hareket ettirmesi istenir."
+  ],
+  "a": 2,
+  "c": "Çıkık yerine oturtulmaya çalışılırsa damar-sinir hasarı oluşabilir; olduğu gibi tespit edilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kırık, çıkık ve burkulma",
+  "q": "Ayak bileği burkulan kişiye yapılacak ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Sıcak uygulama yapılıp masaj yapılır.",
+   "Ayağın üzerine basarak yürümesi istenir.",
+   "Bilek çekilerek yerine oturtulur.",
+   "Soğuk uygulama yapılır, bandajla sarılır ve ayak yükseltilir."
+  ],
+  "a": 3,
+  "c": "Burkulmada soğuk uygulama, bandajla destek ve yükseltme şişliği ve ağrıyı azaltır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Kırık, çıkık ve burkulma",
+  "q": "Ön kol kırığı tespit edildikten sonra kolun desteklenmesi için genellikle aşağıdakilerden hangisi kullanılır?",
+  "o": [
+   "Üçgen sargı ile kol askısı",
+   "Turnike",
+   "Boyunluk",
+   "Elastik çorap"
+  ],
+  "a": 0,
+  "c": "Ön kol kırığı tespit edildikten sonra üçgen sargıyla kol askıya alınır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yanık, donma ve sıcak çarpması",
+  "q": "Isı ile oluşan yanıklarda yanan bölgeye ilk olarak ne yapılmalıdır?",
+  "o": [
+   "Üzerine yağ veya diş macunu sürülmelidir.",
+   "En az 20 dakika tazyiksiz, serin suyla soğutulmalıdır.",
+   "Buz doğrudan yanık üzerine konulmalıdır.",
+   "Oluşan su kabarcıkları patlatılmalıdır."
+  ],
+  "a": 1,
+  "c": "Yanık bölgesi en az 20 dakika tazyiksiz serin suyla soğutulur; yağ, macun ve buz uygulanmaz."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yanık, donma ve sıcak çarpması",
+  "q": "Yanıklarda aşağıdaki uygulamalardan hangisi **yanlıştır**?",
+  "o": [
+   "Yüzük, saat gibi takılar şişmeden çıkarılır.",
+   "Yanık temiz ve nemli bir bezle örtülür.",
+   "Yanık bölgesine yapışan giysiler çekilerek çıkarılır.",
+   "Su kabarcıkları patlatılmaz."
+  ],
+  "a": 2,
+  "c": "Yapışan giysiler çekilirse doku hasarı artar; yapışmış giysiler çıkarılmaz."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yanık, donma ve sıcak çarpması",
+  "q": "Kimyasal madde sıçrayan göze yapılacak ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Göz ovularak kimyasal madde çıkarılmalıdır.",
+   "Göze göz damlası damlatılmalıdır.",
+   "Göz kapatılarak hiçbir işlem yapılmamalıdır.",
+   "Göz bol miktarda temiz suyla uzun süre yıkanmalıdır."
+  ],
+  "a": 3,
+  "c": "Kimyasal temasında göz, içten dışa doğru bol suyla uzun süre yıkanır ve sağlık kuruluşuna başvurulur."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yanık, donma ve sıcak çarpması",
+  "q": "Donma olan bölgeye yapılacak ilk yardımla ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Kişi ılık bir ortama alınır, donmuş bölge ovuşturulmadan yavaşça ısıtılır.",
+   "Donmuş bölge karla ovulur.",
+   "Donmuş bölge ateşe doğrudan yaklaştırılır.",
+   "Isınması için kişiye alkollü içecek verilir."
+  ],
+  "a": 0,
+  "c": "Donmada bölge ovuşturulmaz ve doğrudan ateşe tutulmaz; kişi ılık ortamda yavaşça ısıtılır, alkol verilmez."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Yanık, donma ve sıcak çarpması",
+  "q": "Sıcak çarpması geçiren kişiye yapılacak ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Kalın bir battaniyeyle sıkıca örtülür.",
+   "Serin bir yere alınır, giysileri gevşetilir ve ıslak bezlerle vücudu soğutulur.",
+   "Güneş altında dinlendirilir.",
+   "Sıcak içecek verilir."
+  ],
+  "a": 1,
+  "c": "Sıcak çarpmasında amaç vücut ısısını düşürmektir; kişi serin ortama alınır ve ıslak bezlerle soğutulur."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Zehirlenmeler",
+  "q": "Kapalı bir ortamda karbonmonoksit zehirlenmesi yaşayan kişiye ilk yardımda **öncelikle** yapılması gereken nedir?",
+  "o": [
+   "Kişiye süt içirmek",
+   "Kişiyi kusturmak",
+   "Kendi güvenliğini sağlayarak kişiyi temiz havaya çıkarmak",
+   "Ortamda ışık yakmak için kibrit çakmak"
+  ],
+  "a": 2,
+  "c": "Önce ortam havalandırılır ve kişi temiz havaya çıkarılır; gaz ortamında kıvılcım oluşturulmaz."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Zehirlenmeler",
+  "q": "Çamaşır suyu gibi yakıcı bir madde içen bilinci açık kişiye yapılan ilk yardımda aşağıdakilerden hangisi yapılmamalıdır?",
+  "o": [
+   "112'nin aranması",
+   "İçilen maddenin ambalajının saklanması",
+   "Kişinin yaşamsal bulgularının izlenmesi",
+   "Kişinin kusturulması"
+  ],
+  "a": 3,
+  "c": "Yakıcı madde kusturulursa yemek borusu ve ağız ikinci kez yanar; kusturulmaz."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Zehirlenmeler",
+  "q": "Zehirlenmelerde ilk yardımla ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Zehirlenmeye neden olan maddenin ne olduğu öğrenilerek sağlık ekibine bildirilir.",
+   "Her zehirlenmede kişi mutlaka kusturulur.",
+   "Bilinci kapalı kişiye ağızdan sıvı verilir.",
+   "Zehirlenen kişi yalnız bırakılır."
+  ],
+  "a": 0,
+  "c": "Zehrin türü, miktarı ve alınma zamanı öğrenilip sağlık ekibine bildirilmelidir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Zehirlenmeler",
+  "q": "I. Sindirim yoluyla\nII. Solunum yoluyla\nIII. Deri yoluyla\nZehirler vücuda verilenlerden hangileri ile girebilir?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Zehirler sindirim, solunum, deri ve iğne-sokma yoluyla vücuda girebilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hayvan ısırıkları ve sokmaları",
+  "q": "Köpek ısırması sonucu oluşan yaraya yapılacak ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Yaranın üzerine kolonya döküp sıkıca dikilir.",
+   "Yara bol sabunlu suyla yıkanır ve kişi kuduz riski nedeniyle sağlık kuruluşuna yönlendirilir.",
+   "Yara hiç temizlenmeden sıkıca kapatılır.",
+   "Hayvanın sahibi bulunana kadar yaralıya dokunulmaz."
+  ],
+  "a": 1,
+  "c": "Isırık yarası sabunlu suyla yıkanır; kuduz ve tetanos riski nedeniyle sağlık kuruluşuna başvurulur."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hayvan ısırıkları ve sokmaları",
+  "q": "Yılan sokmasında aşağıdaki uygulamalardan hangisi **yanlıştır**?",
+  "o": [
+   "Kişinin sakinleştirilmesi ve hareket ettirilmemesi",
+   "Sokulan bölgedeki yüzük, saat gibi eşyaların çıkarılması",
+   "Sokulan bölgenin kesilerek zehrin ağızla emilmesi",
+   "112'nin aranması"
+  ],
+  "a": 2,
+  "c": "Yılan sokmasında bölge kesilmez, ağızla emilmez; kişi hareketsiz tutulur ve 112 aranır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Bilinç bozuklukları",
+  "q": "Bilinci kapalı, normal solunumu olan ve travma şüphesi bulunmayan yaralıya hangi pozisyon verilir?",
+  "o": [
+   "Şok pozisyonu",
+   "Yarı oturur pozisyon",
+   "Yüzüstü pozisyon",
+   "Koma (derlenme / yan yatış) pozisyonu"
+  ],
+  "a": 3,
+  "c": "Koma pozisyonu dilin geriye kaçmasını ve kusmukla boğulmayı önler."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Bilinç bozuklukları",
+  "q": "Bayılan bir kişiye yapılacak ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Sırtüstü yatırılır, bacakları yükseltilir ve sıkan giysileri gevşetilir.",
+   "Ayağa kaldırılıp yürütülür.",
+   "Yüzüne tokat atılarak ayıltılmaya çalışılır.",
+   "Hemen ağzına su verilir."
+  ],
+  "a": 0,
+  "c": "Bayılmada beyne kan akışını artırmak için kişi sırtüstü yatırılıp bacakları yükseltilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Bilinç bozuklukları",
+  "q": "Havale (nöbet) geçiren bir kişiye ilk yardımda aşağıdakilerden hangisi yapılmamalıdır?",
+  "o": [
+   "Çevredeki tehlikeli eşyaların uzaklaştırılması",
+   "Ağzına bir cisim sokulmaya çalışılması",
+   "Başının altına yumuşak bir şey konulması",
+   "Nöbet sonrası koma pozisyonuna getirilmesi"
+  ],
+  "a": 1,
+  "c": "Nöbet sırasında ağza cisim sokulmaz, hareketler zorla engellenmez; çevre güvenli hâle getirilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Bilinç bozuklukları",
+  "q": "Bilinci açık olan ve kan şekeri düştüğünü söyleyen bir şeker hastasına yapılacak ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Hemen koma pozisyonuna getirilir.",
+   "Yanındaki insülin iğnesi yapılır.",
+   "Şekerli bir yiyecek veya içecek verilir.",
+   "Yemek yemesi engellenir."
+  ],
+  "a": 2,
+  "c": "Bilinci açıksa kan şekerini yükseltmek için şekerli yiyecek-içecek verilir; ilk yardımcı ilaç uygulamaz."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Göz, kulak ve buruna yabancı cisim",
+  "q": "Gözüne yabancı cisim batmış bir kişiye yapılacak ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Cisim cımbızla çıkarılır.",
+   "Kişiden gözünü ovuşturması istenir.",
+   "Göze yağ damlatılır.",
+   "Cisim çıkarılmaz, her iki göz kapatılarak sağlık kuruluşuna gidilir."
+  ],
+  "a": 3,
+  "c": "Batmış cisim çıkarılmaz; göz hareketlerini azaltmak için iki göz birlikte kapatılır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Göz, kulak ve buruna yabancı cisim",
+  "q": "Burnuna yabancı cisim kaçan bir çocuğa yapılacak ilk yardım aşağıdakilerden hangisidir?",
+  "o": [
+   "Diğer burun deliği kapatılarak çocuğun sümkürmesi sağlanır.",
+   "Cisim tükenmez kalem ucuyla itilerek çıkarılır.",
+   "Çocuğa burnundan derin nefes çekmesi söylenir.",
+   "Buruna su doldurulur."
+  ],
+  "a": 0,
+  "c": "Boş burun deliği kapatılıp çocuğun sert sümkürmesi istenir; çıkmazsa sağlık kuruluşuna gidilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Göz, kulak ve buruna yabancı cisim",
+  "q": "Kulağa kaçan yabancı cisimle ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Kulağa kızgın yağ damlatılmalıdır.",
+   "Cisim kürdan, toka gibi araçlarla çıkarılmaya çalışılmamalıdır.",
+   "Cisim sivri bir aletle zorla itilmelidir.",
+   "Kulağa sert bir şekilde vurulmalıdır."
+  ],
+  "a": 1,
+  "c": "Kulak kurcalanırsa cisim daha içeri itilir ve kulak zarı zarar görebilir; sağlık kuruluşuna başvurulur."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralı taşıma teknikleri",
+  "q": "Araç içinde bulunan ve hayati tehlike altındaki yaralıyı, tek ilk yardımcının araçtan çıkarmak için kullandığı yöntem aşağıdakilerden hangisidir?",
+  "o": [
+   "Heimlich manevrası",
+   "Baş geri-çene yukarı pozisyonu",
+   "Rentek (Rautek) manevrası",
+   "Altın beşik yöntemi"
+  ],
+  "a": 2,
+  "c": "Rentek manevrası, araç içindeki yaralının baş-boyun-gövde ekseni korunarak tek kişiyle çıkarılması yöntemidir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralı taşıma teknikleri",
+  "q": "Rentek manevrası hangi durumda uygulanmalıdır?",
+  "o": [
+   "Yaralının kolunda sıyrık varsa",
+   "Ambulansın gelmesi kısa sürecekse ve tehlike yoksa",
+   "Yaralı araçta rahat oturuyorsa",
+   "Araç içindeki yaralı için yangın gibi hayati bir tehlike varsa"
+  ],
+  "a": 3,
+  "c": "Rentek manevrası acil bir taşıma tekniğidir; yalnızca hayati tehlike varsa uygulanır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralı taşıma teknikleri",
+  "q": "Hasta ve yaralı taşımada aşağıdakilerden hangisi **yanlıştır**?",
+  "o": [
+   "Yaralı taşınırken baş-boyun-gövde ekseni önemsenmez.",
+   "Taşıma sırasında yaralının durumu izlenir.",
+   "İlk yardımcı kendi beline zarar vermemek için dizlerini bükerek kaldırır.",
+   "Mümkünse sedye kullanılır."
+  ],
+  "a": 0,
+  "c": "Taşımada baş-boyun-gövde ekseni korunmalıdır; aksi hâlde omurga yaralanması ağırlaşabilir."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralı taşıma teknikleri",
+  "q": "Bilinci açık, yürüyemeyen ve hafif yaralı bir kişinin iki ilk yardımcı tarafından taşınmasında kullanılan yöntem aşağıdakilerden hangisidir?",
+  "o": [
+   "Rentek manevrası",
+   "Altın beşik yöntemi",
+   "Ayak bileklerinden sürükleme",
+   "Heimlich manevrası"
+  ],
+  "a": 1,
+  "c": "Altın beşik yönteminde iki ilk yardımcı elleriyle oturak oluşturarak bilinci açık yaralıyı taşır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Hasta/yaralının değerlendirilmesi",
+  "q": "Boyun yaralanması şüphesi olan bilinçsiz yaralıda baş geri-çene yukarı pozisyonu ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Mutlaka ve kuvvetle uygulanmalıdır.",
+   "Baş tamamen yana çevrilerek uygulanmalıdır.",
+   "Uygulanmamalıdır; baş ve boyun hareket ettirilmeden hava yolu korunmalıdır.",
+   "Yaralı oturtularak uygulanmalıdır."
+  ],
+  "a": 2,
+  "c": "Boyun travması şüphesinde baş geri itilmez; omuriliğe zarar verilmemesi için baş-boyun sabit tutulur."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Temel yaşam desteği",
+  "q": "Yalnız olan bir ilk yardımcı tepkisiz ve normal solunumu olmayan bir bebek bulursa ne yapmalıdır?",
+  "o": [
+   "Hiç müdahale etmeden 112'yi arayıp beklemelidir.",
+   "Bebeğe yalnızca sırt vuruşu uygulamalıdır.",
+   "Bebeği koma pozisyonuna getirip uzaklaşmalıdır.",
+   "Yaklaşık 1 dakika (5 döngü) temel yaşam desteği yaptıktan sonra 112'yi aramalıdır."
+  ],
+  "a": 3,
+  "c": "Bebek ve çocukta kalp durması çoğunlukla solunum kaynaklıdır; yalnızsa yaklaşık 1 dakika TYD yapıp sonra 112 aranır."
+ },
+ {
+  "d": "ilkyardim",
+  "k": "Olay yeri değerlendirmesi ve güvenliği",
+  "q": "Kaza yerinde ilk yardımcı tarafından kullanılması önerilen kişisel koruyucu malzeme aşağıdakilerden hangisidir?",
+  "o": [
+   "Tek kullanımlık eldiven",
+   "Kalın kış montu",
+   "Güneş gözlüğü",
+   "Spor ayakkabı"
+  ],
+  "a": 0,
+  "c": "Kan ve vücut sıvılarıyla temasta hastalık bulaşmasını önlemek için eldiven kullanılır."
+ }
+]

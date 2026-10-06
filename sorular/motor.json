@@ -1,0 +1,1058 @@
+[
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Gösterge panelinde yanan bu ışık neyi ifade eder?",
+  "g": "g-yag",
+  "o": [
+   "Motor yağ basıncının düştüğünü",
+   "Yakıtın azaldığını",
+   "Akünün şarj olmadığını",
+   "Fren hidroliğinin eksildiğini"
+  ],
+  "a": 0,
+  "c": "Yağdanlık simgeli ışık, motor yağ basıncının yetersiz olduğunu bildirir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Seyir hâlinde bu ışık yanarsa sürücü ne yapmalıdır?",
+  "g": "g-yag",
+  "o": [
+   "Yola devam edip ilk fırsatta servise uğramalıdır",
+   "Aracı güvenli bir yerde durdurup motoru hemen stop etmelidir",
+   "Motor devrini yükseltip ışığın sönmesini beklemelidir",
+   "Radyatöre soğutma suyu eklemelidir"
+  ],
+  "a": 1,
+  "c": "Yağ basıncı düşükken çalışmaya devam eden motorun parçaları kısa sürede ağır hasar görür; motor derhal durdurulmalıdır."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Gösterge panelinde yanan bu ışık neyi ifade eder?",
+  "g": "g-aku",
+  "o": [
+   "Uzun farların yandığını",
+   "Motor yağının azaldığını",
+   "Akünün şarj edilmediğini",
+   "Motorun aşırı ısındığını"
+  ],
+  "a": 2,
+  "c": "Akü simgeli ışık şarj sisteminde arıza olduğunu, akünün dolmadığını gösterir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Motor çalışırken bu ışığın yanması aşağıdakilerden hangisinin arızalı olabileceğini gösterir?",
+  "g": "g-aku",
+  "o": [
+   "Yakıt pompası",
+   "Yağ pompası",
+   "Termostat",
+   "Alternatör veya alternatör kayışı"
+  ],
+  "a": 3,
+  "c": "Aküyü şarj eden alternatör ya da onu döndüren kayış arızalanırsa şarj ikaz ışığı yanar."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Gösterge panelinde yanan bu ışık neyi ifade eder?",
+  "g": "g-hararet",
+  "o": [
+   "Motor soğutma suyu sıcaklığının aşırı yükseldiğini",
+   "Dış ortam sıcaklığının düştüğünü",
+   "Klimanın çalıştığını",
+   "Motor yağının azaldığını"
+  ],
+  "a": 0,
+  "c": "Termometre simgeli ışık motorun hararet yaptığını bildirir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Bu ışık yandığında sürücü ne yapmalıdır?",
+  "g": "g-hararet",
+  "o": [
+   "Radyatör kapağını hemen açıp soğuk su eklemelidir",
+   "Aracı güvenli yerde durdurup motoru kapatmalı, motor soğuyunca soğutma suyunu kontrol etmelidir",
+   "Motoru yüksek devirde çalıştırarak soğutmalıdır",
+   "Hızını artırarak yola devam etmelidir"
+  ],
+  "a": 1,
+  "c": "Hararet durumunda motor durdurulur; sıcak radyatörün kapağı açılırsa kaynar su fışkırarak yanığa neden olur."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Bu ışık yandığında öncelikle aşağıdakilerden hangisi kontrol edilmelidir?",
+  "g": "g-fren",
+  "o": [
+   "Lastik diş derinliği",
+   "Cam suyu seviyesi",
+   "El freninin çekili olup olmadığı ve fren hidroliği seviyesi",
+   "Motor yağının viskozitesi"
+  ],
+  "a": 2,
+  "c": "Fren uyarı ışığı el freni çekiliyken veya fren hidroliği azaldığında yanar."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Gösterge panelinde sürekli yanan bu ışık neyi ifade eder?",
+  "g": "g-abs",
+  "o": [
+   "Aracın otomatik vitesli olduğunu",
+   "El freninin çekili olduğunu",
+   "Fren balatalarının yeni değiştirildiğini",
+   "ABS (kilitlenme önleyici fren) sisteminde arıza olduğunu"
+  ],
+  "a": 3,
+  "c": "ABS ışığı sönmüyorsa sistem devre dışıdır; araç en kısa sürede servise götürülmelidir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Gösterge panelinde yanan bu ışık neyi ifade eder?",
+  "g": "g-yakit",
+  "o": [
+   "Yakıt deposundaki yakıtın azaldığını",
+   "Yakıt filtresinin tıkandığını",
+   "Depoya yanlış yakıt konduğunu",
+   "Motor yağının azaldığını"
+  ],
+  "a": 0,
+  "c": "Yakıt pompası simgeli ışık deponun yedek seviyeye indiğini gösterir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Gösterge panelinde yanan bu ışık neyi ifade eder?",
+  "g": "g-uzun-far",
+  "o": [
+   "Sis lambalarının yandığını",
+   "Uzun hüzmeli farların yandığını",
+   "Kısa farların arızalı olduğunu",
+   "Park lambalarının yandığını"
+  ],
+  "a": 1,
+  "c": "Bu gösterge uzun farların açık olduğunu bildirir; karşıdan araç gelirken kısa fara geçilmelidir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Gösterge panelinde yanan bu ışık neyi ifade eder?",
+  "g": "g-kemer",
+  "o": [
+   "Koltuğun arızalı olduğunu",
+   "Hava yastığının açıldığını",
+   "Emniyet kemerinin takılmadığını",
+   "Kapının açık olduğunu"
+  ],
+  "a": 2,
+  "c": "Kemer uyarı ışığı, koltuktaki kişinin emniyet kemerini takmadığını hatırlatır."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Seyir hâlinde bu ışık sürekli yanıyorsa sürücü ne yapmalıdır?",
+  "g": "g-motor-ariza",
+  "o": [
+   "Akü kutup başlarını sökmelidir",
+   "Işık sönene kadar motoru yüksek devirde çalıştırmalıdır",
+   "Işığı önemsemeden uzun süre yola devam etmelidir",
+   "Aracı en kısa sürede serviste kontrol ettirmelidir"
+  ],
+  "a": 3,
+  "c": "Motor arıza ışığı motor yönetim sisteminde bir sorun olduğunu bildirir; arıza büyümeden kontrol ettirilmelidir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Aşağıdakilerden hangisi motor yağ basıncı uyarı ışığıdır?",
+  "og": true,
+  "o": [
+   "g-yag",
+   "g-aku",
+   "g-hararet",
+   "g-yakit"
+  ],
+  "a": 0,
+  "c": "Yağ basıncı uyarı ışığı yağdanlık simgesiyle gösterilir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Aşağıdakilerden hangisi akü şarj uyarı ışığıdır?",
+  "og": true,
+  "o": [
+   "g-yag",
+   "g-aku",
+   "g-motor-ariza",
+   "g-abs"
+  ],
+  "a": 1,
+  "c": "Şarj uyarı ışığı, artı ve eksi kutupları olan akü simgesidir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Aşağıdakilerden hangisi uzun far gösterge ışığıdır?",
+  "og": true,
+  "o": [
+   "g-sinyal",
+   "g-kisa-far",
+   "g-uzun-far",
+   "g-lastik"
+  ],
+  "a": 2,
+  "c": "Uzun far göstergesinde ışık hüzmeleri düz (yatay) çizgilerle gösterilir."
+ },
+ {
+  "d": "motor",
+  "k": "Gösterge ve ikaz ışıkları",
+  "q": "Aşağıdakilerden hangisi lastik basıncı uyarı ışığıdır?",
+  "og": true,
+  "o": [
+   "g-hava-yastigi",
+   "g-abs",
+   "g-hararet",
+   "g-lastik"
+  ],
+  "a": 3,
+  "c": "Lastik basıncı uyarı ışığı, içinde ünlem bulunan lastik kesiti simgesidir."
+ },
+ {
+  "d": "motor",
+  "k": "Motorun çalışması",
+  "q": "Dört zamanlı bir motorda zamanların doğru sıralaması hangisidir?",
+  "o": [
+   "Emme – sıkıştırma – iş – egzoz",
+   "Sıkıştırma – emme – egzoz – iş",
+   "Emme – iş – sıkıştırma – egzoz",
+   "İş – emme – egzoz – sıkıştırma"
+  ],
+  "a": 0,
+  "c": "Dört zamanlı motorda sıra emme, sıkıştırma, iş (yanma) ve egzozdur."
+ },
+ {
+  "d": "motor",
+  "k": "Motorun çalışması",
+  "q": "Dört zamanlı motorda yanmış gazlar silindirden hangi zamanda dışarı atılır?",
+  "o": [
+   "Emme",
+   "Egzoz",
+   "Sıkıştırma",
+   "İş"
+  ],
+  "a": 1,
+  "c": "Egzoz zamanında piston yukarı çıkarak yanmış gazları egzoz supabından dışarı iter."
+ },
+ {
+  "d": "motor",
+  "k": "Motorun çalışması",
+  "q": "Benzinli motorlarda silindirdeki yakıt-hava karışımını ateşleyen parça hangisidir?",
+  "o": [
+   "Termostat",
+   "Enjektör",
+   "Buji",
+   "Kızdırma bujisi"
+  ],
+  "a": 2,
+  "c": "Benzinli motorda karışım bujinin oluşturduğu kıvılcımla ateşlenir."
+ },
+ {
+  "d": "motor",
+  "k": "Motorun çalışması",
+  "q": "Dizel motorlarda yakıtın tutuşması nasıl sağlanır?",
+  "o": [
+   "Alternatörden gelen akımla",
+   "Buji kıvılcımıyla",
+   "Karbüratörde hazırlanan karışımın ateşlenmesiyle",
+   "Sıkıştırılarak ısınan havanın üzerine yakıt püskürtülmesiyle"
+  ],
+  "a": 3,
+  "c": "Dizel motorda hava yüksek oranda sıkıştırılıp ısınır; üzerine püskürtülen motorin kendiliğinden tutuşur."
+ },
+ {
+  "d": "motor",
+  "k": "Motorun çalışması",
+  "q": "Dizel motorlu bir araçta kızdırma bujisi ikaz ışığı söndükten sonra ne yapılmalıdır?",
+  "o": [
+   "Marşa basılarak motor çalıştırılmalıdır",
+   "Kontak kapatılıp ışığın yeniden yanması beklenmelidir",
+   "Gaz pedalına birkaç kez basılıp kontak kapatılmalıdır",
+   "Araç itilerek çalıştırılmalıdır"
+  ],
+  "a": 0,
+  "c": "Işığın sönmesi yanma odasının yeterince ısındığını gösterir; bu anda marşa basılır."
+ },
+ {
+  "d": "motor",
+  "k": "Motorun çalışması",
+  "q": "Yakıtı silindire ya da emme kanalına basınçlı ve belirli miktarda püskürten parça hangisidir?",
+  "o": [
+   "Buji",
+   "Enjektör",
+   "Su pompası",
+   "Termostat"
+  ],
+  "a": 1,
+  "c": "Enjektör, yakıtı çok ince zerrecikler hâlinde püskürterek havayla iyi karışmasını sağlar."
+ },
+ {
+  "d": "motor",
+  "k": "Yakıt sistemi",
+  "q": "Motora giren havadaki toz ve yabancı maddeleri tutan parça hangisidir?",
+  "o": [
+   "Yakıt filtresi",
+   "Yağ filtresi",
+   "Hava filtresi",
+   "Katalitik konvertör"
+  ],
+  "a": 2,
+  "c": "Hava filtresi, motorun emdiği havayı temizleyerek silindirlerin aşınmasını önler."
+ },
+ {
+  "d": "motor",
+  "k": "Yakıt sistemi",
+  "q": "Hava filtresinin kirlenip tıkanması aşağıdakilerden hangisine yol açar?",
+  "o": [
+   "Motor yağının daha geç kirlenmesine",
+   "Fren mesafesinin kısalmasına",
+   "Akünün daha hızlı şarj olmasına",
+   "Yakıt tüketiminin artmasına ve motor gücünün düşmesine"
+  ],
+  "a": 3,
+  "c": "Yeterli hava alamayan motorda yanma bozulur; güç düşer, yakıt tüketimi artar."
+ },
+ {
+  "d": "motor",
+  "k": "Yakıt sistemi",
+  "q": "Benzinli bir araca yanlışlıkla motorin konduğu fark edilirse ne yapılmalıdır?",
+  "o": [
+   "Motor çalıştırılmadan yakıt sistemi boşaltılıp temizletilmelidir",
+   "Motor çalıştırılıp depodaki yakıt bitene kadar sürülmelidir",
+   "Yakıt filtresi çıkarılarak yola devam edilmelidir",
+   "Depoya motor yağı eklenerek yakıt inceltilmelidir"
+  ],
+  "a": 0,
+  "c": "Yanlış yakıtla motor çalıştırılırsa yakıt sistemi ve motor zarar görür; önce sistem boşaltılmalıdır."
+ },
+ {
+  "d": "motor",
+  "k": "Yağlama sistemi",
+  "q": "Aşağıdakilerden hangisi motor yağının görevlerinden biri **değildir**?",
+  "o": [
+   "Hareketli parçalar arasındaki sürtünmeyi azaltmak",
+   "Yakıtın tutuşmasını sağlamak",
+   "Motor parçalarının soğumasına yardımcı olmak",
+   "Motorun içini temizlemek"
+  ],
+  "a": 1,
+  "c": "Motor yağı yağlar, soğutur, temizler ve sızdırmazlığa yardım eder; tutuşmayla ilgisi yoktur."
+ },
+ {
+  "d": "motor",
+  "k": "Yağlama sistemi",
+  "q": "Motor yağı seviyesi nasıl kontrol edilmelidir?",
+  "o": [
+   "Motor yüksek devirde çalışırken yağ kapağı açılarak",
+   "Araç eğimli yerdeyken motor çalışır hâlde",
+   "Araç düz zemindeyken, motor durdurulduktan bir süre sonra yağ çubuğuyla",
+   "Yalnızca yağ basıncı ışığına bakılarak"
+  ],
+  "a": 2,
+  "c": "Doğru ölçüm için araç düz zeminde olmalı ve yağın karterde toplanması için motor durdurulup biraz beklenmelidir."
+ },
+ {
+  "d": "motor",
+  "k": "Yağlama sistemi",
+  "q": "Motor yağının akışkanlık (kıvam) derecesini ifade eden özelliğe ne ad verilir?",
+  "o": [
+   "Antifriz",
+   "Oktan",
+   "Setan",
+   "Viskozite"
+  ],
+  "a": 3,
+  "c": "Viskozite yağın akmaya karşı direncidir; motora uygun viskozitede yağ kullanılmalıdır."
+ },
+ {
+  "d": "motor",
+  "k": "Yağlama sistemi",
+  "q": "Motor yağı değiştirilirken aşağıdakilerden hangisinin de değiştirilmesi gerekir?",
+  "o": [
+   "Yağ filtresi",
+   "Termostat",
+   "Buji kabloları",
+   "Fren balataları"
+  ],
+  "a": 0,
+  "c": "Kirli yağ filtresi yeni yağı da kısa sürede kirletir; yağ değişiminde filtre de yenilenir."
+ },
+ {
+  "d": "motor",
+  "k": "Yağlama sistemi",
+  "q": "I. Sürtünmeyi azaltmak\nII. Motorun soğumasına yardım etmek\nIII. Sızdırmazlığa yardımcı olmak\nYukarıdakilerden hangileri motor yağının görevlerindendir?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Motor yağı sürtünmeyi azaltır, ısıyı taşır ve segmanlarla silindir arasında sızdırmazlığa yardım eder."
+ },
+ {
+  "d": "motor",
+  "k": "Soğutma sistemi",
+  "q": "Soğutma suyuna antifriz katılmasının amacı nedir?",
+  "o": [
+   "Motor yağının akışkanlığını artırmak",
+   "Suyun donmasını ve sistemin paslanmasını önlemek",
+   "Yakıtın oktan değerini yükseltmek",
+   "Fren hidroliğinin kaynamasını önlemek"
+  ],
+  "a": 1,
+  "c": "Antifriz donmayı, korozyonu ve kireçlenmeyi önler; kaynama noktasını da yükseltir."
+ },
+ {
+  "d": "motor",
+  "k": "Soğutma sistemi",
+  "q": "Motor soğukken soğutma suyunun radyatöre gitmesini engelleyerek motorun kısa sürede çalışma sıcaklığına ulaşmasını sağlayan parça hangisidir?",
+  "o": [
+   "Fan",
+   "Su pompası",
+   "Termostat",
+   "Radyatör"
+  ],
+  "a": 2,
+  "c": "Termostat, motor ısınana kadar kapalı kalır; çalışma sıcaklığına gelince açılarak suyu radyatöre gönderir."
+ },
+ {
+  "d": "motor",
+  "k": "Soğutma sistemi",
+  "q": "Soğutma suyunu motor ile radyatör arasında dolaştıran parça hangisidir?",
+  "o": [
+   "Enjektör",
+   "Termostat",
+   "Yağ pompası",
+   "Su pompası"
+  ],
+  "a": 3,
+  "c": "Su pompası soğutma suyunun sistem içinde sürekli dolaşmasını sağlar."
+ },
+ {
+  "d": "motor",
+  "k": "Soğutma sistemi",
+  "q": "Motor hararet yaptığında yapılan aşağıdaki davranışlardan hangisi **yanlıştır**?",
+  "o": [
+   "Motor sıcakken radyatör kapağının hemen açılması",
+   "Aracın güvenli bir yerde durdurulması",
+   "Motorun soğumaya bırakılması",
+   "Soğutma suyu seviyesinin motor soğuduktan sonra kontrol edilmesi"
+  ],
+  "a": 0,
+  "c": "Sıcak sistemde basınç yüksektir; kapak açılırsa kaynar su fışkırarak yanığa yol açar."
+ },
+ {
+  "d": "motor",
+  "k": "Soğutma sistemi",
+  "q": "Aşağıdakilerden hangisi motorun hararet yapmasına neden olabilir?",
+  "o": [
+   "Akü kutup başlarının temiz olması",
+   "Soğutma suyunun eksik olması",
+   "Lastik basınçlarının doğru olması",
+   "Cam suyu deposunun dolu olması"
+  ],
+  "a": 1,
+  "c": "Soğutma suyu eksikliği, fan, termostat veya su pompası arızası motorun aşırı ısınmasına yol açar."
+ },
+ {
+  "d": "motor",
+  "k": "Elektrik sistemi",
+  "q": "Motor çalışırken aracın elektrik ihtiyacını karşılayan ve aküyü şarj eden parça hangisidir?",
+  "o": [
+   "Distribütör",
+   "Marş motoru",
+   "Alternatör",
+   "Ateşleme bobini"
+  ],
+  "a": 2,
+  "c": "Alternatör motor tarafından döndürülerek elektrik üretir ve aküyü şarj eder."
+ },
+ {
+  "d": "motor",
+  "k": "Elektrik sistemi",
+  "q": "Motora ilk hareketi vererek çalışmasını sağlayan parça hangisidir?",
+  "o": [
+   "Termostat",
+   "Alternatör",
+   "Su pompası",
+   "Marş motoru"
+  ],
+  "a": 3,
+  "c": "Marş motoru, aküden aldığı akımla volanı döndürerek motoru çalıştırır."
+ },
+ {
+  "d": "motor",
+  "k": "Elektrik sistemi",
+  "q": "Akü ile ilgili aşağıdaki ifadelerden hangisi **yanlıştır**?",
+  "o": [
+   "Kutup başlarının oksitlenmesi motorun çalışmasını kolaylaştırır",
+   "Kutup başları temiz ve sıkı olmalıdır",
+   "Motor çalışmazken aracın elektrik ihtiyacını akü karşılar",
+   "Akü bağlantıları sökülürken önce eksi (–) kutup sökülür"
+  ],
+  "a": 0,
+  "c": "Oksitlenme akım geçişini zorlaştırır ve marşı güçleştirir; kutup başları temiz tutulmalıdır."
+ },
+ {
+  "d": "motor",
+  "k": "Elektrik sistemi",
+  "q": "Elektrik devrelerini aşırı akıma karşı koruyan parça hangisidir?",
+  "o": [
+   "Marş motoru",
+   "Sigorta",
+   "Ateşleme bobini",
+   "Distribütör"
+  ],
+  "a": 1,
+  "c": "Devreden aşırı akım geçtiğinde sigorta atarak kabloların ve cihazların zarar görmesini önler."
+ },
+ {
+  "d": "motor",
+  "k": "Elektrik sistemi",
+  "q": "Yanan bir sigorta değiştirilirken ne yapılmalıdır?",
+  "o": [
+   "Sigorta yerine tel bağlanmalıdır",
+   "Daha yüksek amperli sigorta takılmalıdır",
+   "Aynı amper değerinde yeni sigorta takılmalıdır",
+   "Sigorta yuvası boş bırakılmalıdır"
+  ],
+  "a": 2,
+  "c": "Yüksek amperli sigorta ya da tel devreyi korumaz ve yangına yol açabilir."
+ },
+ {
+  "d": "motor",
+  "k": "Elektrik sistemi",
+  "q": "Kontak açıldığında, motor henüz çalışmıyorken şarj ikaz ışığının yanmaması neyi gösterir?",
+  "o": [
+   "Motor yağının yeterli olduğunu",
+   "Şarj sisteminin kusursuz çalıştığını",
+   "Akünün tamamen dolu olduğunu",
+   "İkaz lambasının ya da devresinin arızalı olabileceğini"
+  ],
+  "a": 3,
+  "c": "Normalde kontak açılınca şarj ışığı yanar, motor çalışınca söner; hiç yanmaması lamba veya devre arızasıdır."
+ },
+ {
+  "d": "motor",
+  "k": "Aktarma organları",
+  "q": "Motor gücünün tekerleklere iletilmesinde doğru sıralama hangisidir?",
+  "o": [
+   "Motor – debriyaj – vites kutusu – şaft – diferansiyel – aks",
+   "Motor – vites kutusu – debriyaj – aks – şaft – diferansiyel",
+   "Motor – şaft – debriyaj – diferansiyel – vites kutusu – aks",
+   "Motor – diferansiyel – şaft – vites kutusu – debriyaj – aks"
+  ],
+  "a": 0,
+  "c": "Hareket motordan sırasıyla debriyaj, vites kutusu, şaft, diferansiyel ve akslar üzerinden tekerleklere ulaşır."
+ },
+ {
+  "d": "motor",
+  "k": "Aktarma organları",
+  "q": "Virajlarda iç ve dış tekerleklerin farklı hızlarda dönmesini sağlayan parça hangisidir?",
+  "o": [
+   "Şaft",
+   "Diferansiyel",
+   "Debriyaj",
+   "Vites kutusu"
+  ],
+  "a": 1,
+  "c": "Virajda dış tekerlek daha uzun yol alır; diferansiyel bu hız farkını karşılar."
+ },
+ {
+  "d": "motor",
+  "k": "Aktarma organları",
+  "q": "Motorun gücünü vites kutusuna iletmeye veya kesmeye yarayan sistem hangisidir?",
+  "o": [
+   "Aks",
+   "Diferansiyel",
+   "Debriyaj",
+   "Şaft"
+  ],
+  "a": 2,
+  "c": "Debriyaj pedalına basıldığında motor ile vites kutusu arasındaki bağlantı kesilir, vites değiştirilebilir."
+ },
+ {
+  "d": "motor",
+  "k": "Aktarma organları",
+  "q": "Vites kutusunun görevi aşağıdakilerden hangisidir?",
+  "o": [
+   "Aküyü şarj etmek",
+   "Motoru soğutmak",
+   "Virajlarda tekerleklerin farklı hızlarda dönmesini sağlamak",
+   "Yol ve yük durumuna göre tekerleklere iletilen gücü ve hızı değiştirmek, geri gitmeyi sağlamak"
+  ],
+  "a": 3,
+  "c": "Vites kutusu farklı dişli oranlarıyla kalkışta güç, düz yolda hız sağlar; geri vitesi de içerir."
+ },
+ {
+  "d": "motor",
+  "k": "Aktarma organları",
+  "q": "Vites kutusundan aldığı hareketi diferansiyele ileten parça hangisidir?",
+  "o": [
+   "Şaft",
+   "Aks",
+   "Krank mili",
+   "Debriyaj"
+  ],
+  "a": 0,
+  "c": "Arkadan itişli araçlarda şaft, vites kutusu ile diferansiyel arasında hareketi taşır."
+ },
+ {
+  "d": "motor",
+  "k": "Aktarma organları",
+  "q": "Otomatik vitesli araçlarda vites kolundaki \"P\" konumu neyi ifade eder?",
+  "o": [
+   "Geri vitesi",
+   "Park konumunu",
+   "Boş konumu",
+   "İleri sürüş konumunu"
+  ],
+  "a": 1,
+  "c": "P (Park) konumunda vites kutusu kilitlenir; R geri, N boş, D ileri sürüş konumudur."
+ },
+ {
+  "d": "motor",
+  "k": "Fren sistemi",
+  "q": "ABS'nin görevi aşağıdakilerden hangisidir?",
+  "o": [
+   "Motorun hararet yapmasını önlemek",
+   "Yakıt tüketimini azaltmak",
+   "Ani frenlemede tekerleklerin kilitlenmesini önleyerek direksiyon hâkimiyetinin sürmesini sağlamak",
+   "Aracın park hâlinde kaymasını önlemek"
+  ],
+  "a": 2,
+  "c": "ABS tekerleklerin kilitlenmesini önler; böylece frenleme sırasında araç yönlendirilebilir."
+ },
+ {
+  "d": "motor",
+  "k": "Fren sistemi",
+  "q": "Kalkış ve hızlanma sırasında çeker tekerleklerin patinaj yapmasını önleyen sistem hangisidir?",
+  "o": [
+   "Hava yastığı",
+   "ABS",
+   "EBD",
+   "ASR"
+  ],
+  "a": 3,
+  "c": "ASR (çekiş kontrolü) kaygan zeminde kalkışta tekerleklerin boşa dönmesini önler."
+ },
+ {
+  "d": "motor",
+  "k": "Fren sistemi",
+  "q": "Frenleme sırasında fren kuvvetini aracın yük durumuna göre ön ve arka tekerleklere dengeli dağıtan sistem hangisidir?",
+  "o": [
+   "EBD",
+   "ASR",
+   "Hız sabitleyici",
+   "Park sensörü"
+  ],
+  "a": 0,
+  "c": "EBD (elektronik fren kuvveti dağıtımı) her tekerleğe uygun fren kuvveti uygulanmasını sağlar."
+ },
+ {
+  "d": "motor",
+  "k": "Fren sistemi",
+  "q": "Virajlarda ve ani manevralarda aracın savrulmasını önlemeye yardımcı olan sistem hangisidir?",
+  "o": [
+   "Hız sabitleyici",
+   "ESP",
+   "Park sensörü",
+   "Start-stop sistemi"
+  ],
+  "a": 1,
+  "c": "ESP, savrulma eğilimini algılayıp ilgili tekerleği frenleyerek aracın yönünü korumasına yardım eder."
+ },
+ {
+  "d": "motor",
+  "k": "Fren sistemi",
+  "q": "Uzun ve dik bir yokuştan inerken fren balatalarının aşırı ısınmasını önlemek için ne yapılmalıdır?",
+  "o": [
+   "Fren pedalına sürekli basılmalıdır",
+   "Vites boşa alınmalıdır",
+   "Düşük viteste motor freninden yararlanılmalıdır",
+   "Kontak kapatılmalıdır"
+  ],
+  "a": 2,
+  "c": "Sürekli frenleme balataları ısıtıp fren gücünü azaltır; düşük vites motor freni etkisi yaratır."
+ },
+ {
+  "d": "motor",
+  "k": "Fren sistemi",
+  "q": "Fren pedalına basıldığında pedalın boşa gitmesi (yumuşak olması) aşağıdakilerden hangisinin belirtisidir?",
+  "o": [
+   "Akünün zayıf olmasının",
+   "Lastik basıncının yüksek olmasının",
+   "Motor yağının fazla olmasının",
+   "Fren sistemine hava girmesinin veya fren hidroliğinin eksilmesinin"
+  ],
+  "a": 3,
+  "c": "Hidrolik sistemdeki hava veya hidrolik kaçağı pedal basıncının tekerleklere iletilmesini engeller."
+ },
+ {
+  "d": "motor",
+  "k": "Fren sistemi",
+  "q": "El freninin temel görevi aşağıdakilerden hangisidir?",
+  "o": [
+   "Duran aracın hareket etmesini önlemek",
+   "Seyir hâlinde aracı yavaşlatan ana fren olmak",
+   "Tekerleklerin kilitlenmesini önlemek",
+   "Virajlarda savrulmayı önlemek"
+  ],
+  "a": 0,
+  "c": "El (park) freni, park hâlindeki ya da yokuşta duran aracın kaymasını önler."
+ },
+ {
+  "d": "motor",
+  "k": "Direksiyon ve süspansiyon",
+  "q": "Belirli hızlarda direksiyonda titreme olmasının en olası nedeni hangisidir?",
+  "o": [
+   "Yakıt deposunun dolu olması",
+   "Tekerleklerin balanssız olması",
+   "Motor yağının yeni değiştirilmesi",
+   "Klimanın çalışması"
+  ],
+  "a": 1,
+  "c": "Balansı bozuk tekerlekler dönerken titreşim üretir ve bu titreşim direksiyona yansır."
+ },
+ {
+  "d": "motor",
+  "k": "Direksiyon ve süspansiyon",
+  "q": "Ön düzen (rot) ayarı bozuk olan bir araçta aşağıdakilerden hangisi görülür?",
+  "o": [
+   "Motorun hararet yapması",
+   "Akünün çabuk boşalması",
+   "Lastiklerin düzensiz aşınması ve aracın bir yana çekmesi",
+   "Yağ basıncının düşmesi"
+  ],
+  "a": 2,
+  "c": "Rot ayarı bozukluğu lastikleri anormal aşındırır ve aracın düz gitmesini zorlaştırır."
+ },
+ {
+  "d": "motor",
+  "k": "Direksiyon ve süspansiyon",
+  "q": "Amortisörlerin görevi aşağıdakilerden hangisidir?",
+  "o": [
+   "Egzoz gürültüsünü azaltmak",
+   "Motor gücünü tekerleklere iletmek",
+   "Frenleme sırasında tekerleklerin kilitlenmesini önlemek",
+   "Yaylanmayı sönümleyerek tekerleklerin yola tutunmasını ve sürüş konforunu sağlamak"
+  ],
+  "a": 3,
+  "c": "Amortisör, yayların salınımını sönümler; bozuk amortisör yol tutuşunu azaltır, fren mesafesini uzatır."
+ },
+ {
+  "d": "motor",
+  "k": "Lastikler",
+  "q": "Otomobil lastiklerinde bulunması gereken en az diş derinliği kaç milimetredir?",
+  "o": [
+   "1,6",
+   "1",
+   "2,5",
+   "3,5"
+  ],
+  "a": 0,
+  "c": "Otomobil lastiklerinde diş derinliği 1,6 mm'nin altına inmemelidir; aşınmış lastik yol tutuşunu azaltır."
+ },
+ {
+  "d": "motor",
+  "k": "Lastikler",
+  "q": "Lastik hava basıncı ne zaman ölçülmelidir?",
+  "o": [
+   "Uzun bir yolculuktan hemen sonra",
+   "Lastikler soğukken",
+   "Lastikler sıcakken",
+   "Araç seyir hâlindeyken"
+  ],
+  "a": 1,
+  "c": "Isınan lastikte hava genleşir ve basınç olduğundan yüksek ölçülür; ölçüm soğukken yapılır."
+ },
+ {
+  "d": "motor",
+  "k": "Lastikler",
+  "q": "Lastik hava basıncının olması gerekenden düşük olması aşağıdakilerden hangisine neden olur?",
+  "o": [
+   "Yakıt tüketiminin azalmasına",
+   "Lastiğin yalnızca ortasından aşınmasına",
+   "Yakıt tüketiminin artmasına ve lastiğin kenarlarından aşınmasına",
+   "Fren mesafesinin kısalmasına"
+  ],
+  "a": 2,
+  "c": "Düşük basınç yuvarlanma direncini artırır, lastiği kenarlardan aşındırır ve ısınmasına yol açar."
+ },
+ {
+  "d": "motor",
+  "k": "Lastikler",
+  "q": "Karlı ve buzlu yolda patinaj zinciri hangi tekerleklere takılmalıdır?",
+  "o": [
+   "Çeker olmayan tekerleklere",
+   "Yalnızca sağ ön tekerleğe",
+   "Yalnızca sol arka tekerleğe",
+   "Çeker tekerleklerin her ikisine"
+  ],
+  "a": 3,
+  "c": "Zincir, hareketi yola aktaran çeker tekerleklerin ikisine birden takılır."
+ },
+ {
+  "d": "motor",
+  "k": "Lastikler",
+  "q": "Kış lastiklerinin yaz lastiklerine göre üstünlüğü aşağıdakilerden hangisidir?",
+  "o": [
+   "Soğuk havada, karlı ve buzlu zeminde daha iyi yol tutuşu sağlaması",
+   "Sıcak havada daha az aşınması",
+   "Hava basıncı kontrolü gerektirmemesi",
+   "Diş derinliğine bakılmaksızın kullanılabilmesi"
+  ],
+  "a": 0,
+  "c": "Kış lastiğinin hamuru soğukta sertleşmez ve diş yapısı kar ile buzda tutunmayı artırır."
+ },
+ {
+  "d": "motor",
+  "k": "Egzoz sistemi",
+  "q": "Katalitik konvertörün görevi aşağıdakilerden hangisidir?",
+  "o": [
+   "Motora giren havayı temizlemek",
+   "Egzoz gazlarındaki zararlı maddeleri daha az zararlı gazlara dönüştürmek",
+   "Yakıtı ısıtarak motora göndermek",
+   "Motor gücünü artırmak"
+  ],
+  "a": 1,
+  "c": "Katalitik konvertör karbonmonoksit, hidrokarbon ve azot oksitleri daha az zararlı gazlara dönüştürür."
+ },
+ {
+  "d": "motor",
+  "k": "Egzoz sistemi",
+  "q": "Egzoz sisteminde kaçak bulunan bir araçta en önemli tehlike aşağıdakilerden hangisidir?",
+  "o": [
+   "Akünün boşalması",
+   "Lastiklerin çabuk aşınması",
+   "Karbonmonoksit gazının araç içine sızarak zehirlenmeye yol açması",
+   "Fren hidroliğinin azalması"
+  ],
+  "a": 2,
+  "c": "Renksiz ve kokusuz karbonmonoksit araç içinde birikirse sürücü ve yolcuları zehirleyebilir."
+ },
+ {
+  "d": "motor",
+  "k": "Bakım ve günlük kontroller",
+  "q": "I. Lastik hava basıncı\nII. Motor yağı seviyesi\nIII. Soğutma suyu seviyesi\nYola çıkmadan önce yukarıdakilerden hangilerinin kontrol edilmesi gerekir?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Lastik basıncı, motor yağı ve soğutma suyu günlük kontrollerin temel maddeleridir."
+ },
+ {
+  "d": "motor",
+  "k": "Bakım ve günlük kontroller",
+  "q": "Aracı kriko ile kaldırmadan önce aşağıdakilerden hangisi yapılmalıdır?",
+  "o": [
+   "Yolcular araçta bırakılarak kriko hızla kaldırılmalıdır",
+   "Araç eğimli zemine park edilmeli ve vites boşa alınmalıdır",
+   "El freni indirilmeli ve motor çalışır bırakılmalıdır",
+   "Araç düz zemine alınmalı, el freni çekilmeli, vitese takılmalı ve çapraz tekerleğe takoz konmalıdır"
+  ],
+  "a": 3,
+  "c": "Kaydırmaya karşı önlem alınmazsa araç krikodan düşerek ciddi kazalara neden olabilir."
+ },
+ {
+  "d": "motor",
+  "k": "Bakım ve günlük kontroller",
+  "q": "Aşağıdakilerden hangisi sürücünün yapacağı günlük kontroller arasında yer **almaz**?",
+  "o": [
+   "Vites kutusunun sökülerek iç parçalarının incelenmesi",
+   "Lastiklerin gözle kontrol edilmesi",
+   "Işıkların çalışıp çalışmadığının kontrolü",
+   "Cam suyu seviyesinin kontrolü"
+  ],
+  "a": 0,
+  "c": "Vites kutusunun sökülmesi servis işidir; günlük kontroller gözle ve basit ölçümlerle yapılır."
+ },
+ {
+  "d": "motor",
+  "k": "Arıza belirtileri",
+  "q": "Egzozdan mavimsi duman çıkması neyi gösterir?",
+  "o": [
+   "Yanmanın kusursuz olduğunu",
+   "Motorun yağ yaktığını",
+   "Akünün boşaldığını",
+   "Lastik basıncının düşük olduğunu"
+  ],
+  "a": 1,
+  "c": "Silindirlere sızan motor yağı yanınca egzozdan mavimsi duman çıkar."
+ },
+ {
+  "d": "motor",
+  "k": "Arıza belirtileri",
+  "q": "Egzozdan yoğun siyah duman çıkması neyi gösterir?",
+  "o": [
+   "Soğutma suyunun fazla olduğunu",
+   "Motorun yağ yaktığını",
+   "Yakıtın tam yanmadığını",
+   "Fren hidroliğinin azaldığını"
+  ],
+  "a": 2,
+  "c": "Siyah duman, fazla yakıt ya da yetersiz hava nedeniyle yanmanın eksik olduğunu gösterir."
+ },
+ {
+  "d": "motor",
+  "k": "Arıza belirtileri",
+  "q": "Motor çalışma sıcaklığına ulaştıktan sonra da egzozdan sürekli ve yoğun beyaz duman çıkması neyi gösterir?",
+  "o": [
+   "Akünün fazla şarj olduğunu",
+   "Yakıtın tam yandığını",
+   "Hava filtresinin yeni olduğunu",
+   "Yanma odasına soğutma suyu karıştığını"
+  ],
+  "a": 3,
+  "c": "Silindir kapak contası gibi arızalarda soğutma suyu yanma odasına sızar ve buhar hâlinde beyaz duman çıkar."
+ },
+ {
+  "d": "motor",
+  "k": "Arıza belirtileri",
+  "q": "Aşağıdakilerden hangisi motorun derhal durdurulmasını gerektirir?",
+  "o": [
+   "Seyir hâlinde yağ basıncı ikaz ışığının yanması",
+   "Sinyal göstergesinin yanıp sönmesi",
+   "Kısa far gösterge ışığının yanması",
+   "Yakıt göstergesinin yarım depoyu göstermesi"
+  ],
+  "a": 0,
+  "c": "Yağ basıncı ikazı yanarken çalışmaya devam eden motor kısa sürede ağır hasar görür."
+ },
+ {
+  "d": "motor",
+  "k": "Aydınlatma ve sinyal",
+  "q": "Geri vites lambasının rengi aşağıdakilerden hangisidir?",
+  "o": [
+   "Kırmızı",
+   "Beyaz",
+   "Sarı",
+   "Mavi"
+  ],
+  "a": 1,
+  "c": "Geri vites lambası beyaz ışık verir ve araç geri vitese takıldığında yanar."
+ },
+ {
+  "d": "motor",
+  "k": "Aydınlatma ve sinyal",
+  "q": "Bir taraftaki sinyal lambalarının normalden çok daha hızlı yanıp sönmesi genellikle neyi gösterir?",
+  "o": [
+   "Farların ayarının bozuk olduğunu",
+   "Akünün tam dolu olduğunu",
+   "O taraftaki sinyal ampullerinden birinin yandığını",
+   "Fren lambalarının çalıştığını"
+  ],
+  "a": 2,
+  "c": "Sinyal devresinde bir ampul yanınca devre direnci değişir ve sinyal hızlı yanıp söner."
+ },
+ {
+  "d": "motor",
+  "k": "Aydınlatma ve sinyal",
+  "q": "Dörtlü flaşörler (acil uyarı ışıkları) hangi durumda kullanılmalıdır?",
+  "o": [
+   "Öndeki aracı geçerken",
+   "Kavşaklarda geçiş üstünlüğü sağlamak için",
+   "Duraklama yasağı olan yerde beklerken",
+   "Arıza veya kaza nedeniyle taşıt yolunda durmak zorunda kalındığında"
+  ],
+  "a": 3,
+  "c": "Dörtlü flaşörler, tehlike oluşturan durumlarda diğer sürücüleri uyarmak için kullanılır."
+ },
+ {
+  "d": "motor",
+  "k": "Güvenlik donanımları",
+  "q": "Hava yastığının koruyucu etkisini tam gösterebilmesi için aşağıdakilerden hangisi gereklidir?",
+  "o": [
+   "Emniyet kemerinin takılı olması",
+   "Koltuğun direksiyona olabildiğince yakın olması",
+   "Ön koltukta çocuk taşınması",
+   "Camların açık olması"
+  ],
+  "a": 0,
+  "c": "Hava yastığı kemeri tamamlayan bir sistemdir; kemersiz yolcu yastığa savrularak yaralanabilir."
+ },
+ {
+  "d": "motor",
+  "k": "Güvenlik donanımları",
+  "q": "Aşağıdakilerden hangisi pasif güvenlik donanımıdır?",
+  "o": [
+   "ABS",
+   "Hava yastığı",
+   "ESP",
+   "ASR"
+  ],
+  "a": 1,
+  "c": "Pasif güvenlik kaza anında yaralanmayı azaltır (hava yastığı, kemer); ABS, ESP ve ASR kazayı önlemeye yönelik aktif sistemlerdir."
+ },
+ {
+  "d": "motor",
+  "k": "Güvenlik donanımları",
+  "q": "Ön yolcu hava yastığı devredeyken bu koltuğa sırtı yola dönük bebek koltuğu takılması neden tehlikelidir?",
+  "o": [
+   "Sürücünün ayna görüşünü kapattığı için",
+   "Bebek koltuğu kemerle bağlanamadığı için",
+   "Hava yastığı açıldığında bebeğe ağır zarar verebileceği için",
+   "Hava yastığının açılmasını engellediği için"
+  ],
+  "a": 2,
+  "c": "Açılan hava yastığı bebek koltuğuna büyük bir kuvvetle çarpar; bu durumda yastık devre dışı bırakılmalıdır."
+ },
+ {
+  "d": "motor",
+  "k": "Ekonomik sürüş",
+  "q": "Aşağıdakilerden hangisi yakıt tasarrufu sağlar?",
+  "o": [
+   "Uygun viteste sabit hızla gitmek",
+   "Ani kalkış ve frenler yapmak",
+   "Lastik basıncını düşük tutmak",
+   "Bagajda gereksiz yük taşımak"
+  ],
+  "a": 0,
+  "c": "Sabit hız ve uygun vites motoru verimli devirde çalıştırır; ani hızlanmalar yakıt tüketimini artırır."
+ },
+ {
+  "d": "motor",
+  "k": "Ekonomik sürüş",
+  "q": "Aşağıdakilerden hangisi yakıt tüketimini artıran durumlardan biri **değildir**?",
+  "o": [
+   "Lastik hava basıncının düşük olması",
+   "Hava filtresinin kirli olması",
+   "Periyodik bakımın zamanında yaptırılması",
+   "Motorun uzun süre rölantide çalıştırılması"
+  ],
+  "a": 2,
+  "c": "Zamanında yapılan bakım motorun verimli çalışmasını sağlar ve tüketimi azaltır."
+ },
+ {
+  "d": "motor",
+  "k": "Ekonomik sürüş",
+  "q": "I. Uzun süre rölantide beklememek\nII. Trafiği önceden gözleyip ani fren yapmamak\nIII. Vitesleri her zaman yüksek devirde değiştirmek\nEkonomik sürüş için yukarıdakilerden hangileri doğrudur?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 1,
+  "c": "Gereksiz rölanti ve ani frenden kaçınmak yakıt tasarrufu sağlar; yüksek devirde vites değiştirmek tüketimi artırır."
+ }
+]

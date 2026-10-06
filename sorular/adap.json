@@ -1,0 +1,717 @@
+[
+ {
+  "d": "adap",
+  "k": "Trafik adabının tanımı",
+  "q": "Denetim ya da ceza korkusu olmaksızın, trafikle ilgili yazılı ve yazılı olmayan kurallara içtenlikle uyulmasını sağlayan davranış biçimine ne ad verilir?",
+  "o": [
+   "Trafik adabı",
+   "Trafik denetimi",
+   "Trafik cezası",
+   "Trafik yönetimi"
+  ],
+  "a": 0,
+  "c": "Trafik adabı, kurallara dış baskıyla değil, içten gelen bir sorumluluk ve nezaket anlayışıyla uymaktır."
+ },
+ {
+  "d": "adap",
+  "k": "Trafik adabının tanımı",
+  "q": "Trafik adabı kazanmış bir sürücü için aşağıdakilerden hangisi söylenebilir?",
+  "o": [
+   "Yalnızca polis gördüğünde hızını düşürür.",
+   "Kurallara, denetleyen biri olmasa da uyar.",
+   "Haklı olduğu durumlarda diğer sürücülere yol vermez.",
+   "Kuralları yalnızca ceza almamak için önemser."
+  ],
+  "a": 1,
+  "c": "Trafik adabının özü, kurallara denetim olmadan da gönüllü olarak uymaktır."
+ },
+ {
+  "d": "adap",
+  "k": "Trafik adabının tanımı",
+  "q": "Toplumda trafik adabının yaygınlaşması aşağıdakilerden hangisini **sağlamaz**?",
+  "o": [
+   "Trafik kazalarının azalmasını",
+   "Trafikte huzur ve güvenin artmasını",
+   "Kural ihlallerinin artmasını",
+   "Sürücüler arası çatışmaların azalmasını"
+  ],
+  "a": 2,
+  "c": "Trafik adabı kural ihlallerini artırmaz, azaltır; kazaları ve çatışmaları da düşürür."
+ },
+ {
+  "d": "adap",
+  "k": "Trafik adabının tanımı",
+  "q": "I. Trafik kazalarının azalmasına katkı sağlar.\nII. Trafik ortamını daha huzurlu hâle getirir.\nIII. Yol kullanıcıları arasında karşılıklı güveni artırır.\nTrafik adabının kazandırdıklarıyla ilgili verilenlerden hangileri doğrudur?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Trafik adabı kazaları azaltır, trafiği huzurlu kılar ve yol kullanıcıları arasında güveni artırır; üçü de doğrudur."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "Kişinin kendini başkasının yerine koyarak onun duygu ve düşüncelerini anlamaya çalışmasına ne ad verilir?",
+  "o": [
+   "Empati",
+   "Sabır",
+   "Öz denetim",
+   "Adalet"
+  ],
+  "a": 0,
+  "c": "Kendini karşısındakinin yerine koyup onu anlamaya çalışmak empatidir."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "Kişinin, başkalarının iyiliğini kendi çıkarından önde tutması ve gerektiğinde onlar için fedakârlık yapmasına ne ad verilir?",
+  "o": [
+   "Bencillik",
+   "Diğerkâmlık",
+   "Rekabet",
+   "Bağımsızlık"
+  ],
+  "a": 1,
+  "c": "Başkalarını düşünüp onların yararı için fedakârlık yapmak diğerkâmlık (özgecilik) olarak adlandırılır."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "Farklı düşünce, davranış ve hatalar karşısında anlayışlı olma ve bunları kabullenebilme erdemine ne denir?",
+  "o": [
+   "Sorumluluk",
+   "Adalet",
+   "Hoşgörü",
+   "Dikkat"
+  ],
+  "a": 2,
+  "c": "Başkalarının farklılıklarına ve hatalarına karşı anlayış göstermek hoşgörüdür."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "Kişinin kendi davranışlarını, dışarıdan bir denetim olmaksızın kendi iradesiyle kontrol edebilmesine ne ad verilir?",
+  "o": [
+   "Empati",
+   "Nezaket",
+   "Diğerkâmlık",
+   "Öz denetim"
+  ],
+  "a": 3,
+  "c": "Davranışlarını kimse denetlemeden kendi iradesiyle düzenleyebilmek öz denetimdir."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "Beklenmedik bir gecikme veya güçlük karşısında öfkelenmeden, soğukkanlılıkla bekleyebilme ve dayanabilme erdemine ne denir?",
+  "o": [
+   "Sabır",
+   "Adalet",
+   "Diğerkâmlık",
+   "Cesaret"
+  ],
+  "a": 0,
+  "c": "Güçlükler karşısında sakin kalıp beklemeyi bilmek sabırdır."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "Kişinin üstlendiği görevin ve yaptığı davranışların sonuçlarını kabul edip bunlara sahip çıkmasına ne ad verilir?",
+  "o": [
+   "Hoşgörü",
+   "Sorumluluk",
+   "Sabır",
+   "Nezaket"
+  ],
+  "a": 1,
+  "c": "Davranışlarının sonuçlarını üstlenmek ve hesabını verebilmek sorumluluktur."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "Herkese hakkını vermek ve kurallar uygulanırken kimseye ayrıcalık tanımamak hangi değerle ifade edilir?",
+  "o": [
+   "Empati",
+   "Sabır",
+   "Adalet",
+   "Hoşgörü"
+  ],
+  "a": 2,
+  "c": "Hakkı gözetmek ve herkese eşit davranmak adaletin gereğidir."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "İnsanlara karşı ince, kibar ve özenli davranmaya ne ad verilir?",
+  "o": [
+   "Öz denetim",
+   "Sorumluluk",
+   "Adalet",
+   "Nezaket"
+  ],
+  "a": 3,
+  "c": "Kibar ve özenli davranış nezaket olarak adlandırılır."
+ },
+ {
+  "d": "adap",
+  "k": "Temel değerler",
+  "q": "Diğer insanların haklarını, kişiliğini ve özgürlüğünü önemseyip bunlara değer vermeye ne ad verilir?",
+  "o": [
+   "Saygı",
+   "Sabır",
+   "Öz denetim",
+   "Dikkat"
+  ],
+  "a": 0,
+  "c": "Başkalarının hak ve kişiliğine değer vermek saygıdır."
+ },
+ {
+  "d": "adap",
+  "k": "Örnek olay",
+  "q": "Sürücü Ahmet, kendisini sollamaya çalışan aracın güvenle geçebilmesi için hızını biraz düşürüp sağa yanaşıyor.\nAhmet'in bu davranışı aşağıdakilerden hangisiyle açıklanır?",
+  "o": [
+   "Bencillik",
+   "Nezaket ve yardımlaşma",
+   "Rekabet",
+   "Öfke"
+  ],
+  "a": 1,
+  "c": "Geçmek isteyen araca kolaylık sağlamak nezaket ve yardımlaşmanın göstergesidir."
+ },
+ {
+  "d": "adap",
+  "k": "Örnek olay",
+  "q": "Sürücü Elif, kavşakta geçiş hakkı kendisinde olduğu hâlde, karşı yoldan gelen ve yolu bilmediği belli olan bir sürücüye el işaretiyle yol veriyor.\nElif'in bu davranışı aşağıdakilerden hangisiyle açıklanır?",
+  "o": [
+   "Kayıtsızlık",
+   "Bencillik",
+   "Hoşgörü",
+   "Acelecilik"
+  ],
+  "a": 2,
+  "c": "Hak kendinden yanayken bile başkasının zorluğunu anlayışla karşılayıp yol vermek hoşgörüdür."
+ },
+ {
+  "d": "adap",
+  "k": "Örnek olay",
+  "q": "Park ederken dikkatsizliği yüzünden başka bir sürücünün yolunu kesen Mehmet, elini kaldırarak o sürücüden özür diliyor.\nMehmet'in bu davranışı aşağıdakilerden hangisinin örneğidir?",
+  "o": [
+   "Öfke kontrolünü kaybetmenin",
+   "Diğer sürücüye üstünlük kurmanın",
+   "Bencilce davranmanın",
+   "Beden dilini nezaketle kullanmanın"
+  ],
+  "a": 3,
+  "c": "Hatayı fark edip el işaretiyle özür dilemek, beden dilinin nezaketle kullanılmasıdır."
+ },
+ {
+  "d": "adap",
+  "k": "Örnek olay",
+  "q": "Sürücü Can, gece boş bir yolda kırmızı ışık yandığında, çevrede hiçbir araç ya da trafik polisi olmamasına rağmen yeşil ışık yanana kadar bekliyor.\nCan'ın bu davranışı en çok hangi değerle açıklanır?",
+  "o": [
+   "Öz denetim",
+   "Empati",
+   "Hoşgörü",
+   "Diğerkâmlık"
+  ],
+  "a": 0,
+  "c": "Denetleyen kimse yokken kurala uymak, davranışını kendi iradesiyle kontrol etmek yani öz denetimdir."
+ },
+ {
+  "d": "adap",
+  "k": "Örnek olay",
+  "q": "Sürücü Zeynep, aracı arıza yapan ve yol kenarında güçlükle uyarı üçgenini kurmaya çalışan bir sürücüye, kendi işi gecikecek olmasına rağmen yardım ediyor.\nZeynep'in davranışı aşağıdakilerden hangisiyle açıklanır?",
+  "o": [
+   "Bencillik",
+   "Diğerkâmlık",
+   "Rekabet",
+   "Kayıtsızlık"
+  ],
+  "a": 1,
+  "c": "Kendi işini geciktirme pahasına başkasına yardım etmek diğerkâmlıktır (özgecilik)."
+ },
+ {
+  "d": "adap",
+  "k": "Örnek olay",
+  "q": "Sürücü Burak, önündeki aracı kullanan sürücünün acemi olduğunu ve bu yüzden yavaş ilerlediğini fark ediyor. Kendi ilk sürüş günlerini hatırlayarak korna çalmadan sakince onu takip ediyor.\nBurak'ın bu davranışı en çok hangi değerle açıklanır?",
+  "o": [
+   "Adalet",
+   "Sorumluluk",
+   "Empati",
+   "Rekabet"
+  ],
+  "a": 2,
+  "c": "Kendini acemi sürücünün yerine koyarak onu anlamaya çalışmak empatidir."
+ },
+ {
+  "d": "adap",
+  "k": "Örnek olay",
+  "q": "Sürücü Selin, karıştığı küçük bir kazada kendi hatası olduğunu kabul ediyor ve gerekli tutanak işlemlerini eksiksiz yerine getiriyor.\nSelin'in bu davranışı hangi değerle açıklanır?",
+  "o": [
+   "Bencillik",
+   "Sabır",
+   "Hoşgörü",
+   "Sorumluluk"
+  ],
+  "a": 3,
+  "c": "Davranışının sonuçlarını kabul edip gereğini yapmak sorumluluktur."
+ },
+ {
+  "d": "adap",
+  "k": "Örnek olay",
+  "q": "Sürücü Kemal, uzun bir araç kuyruğunda beklemek yerine emniyet şeridinden ilerleyip kuyruğun önüne geçiyor.\nKemal'in bu davranışı aşağıdakilerden hangisiyle açıklanır?",
+  "o": [
+   "Bencillik",
+   "Sabır",
+   "Nezaket",
+   "Saygı"
+  ],
+  "a": 0,
+  "c": "Başkalarının hakkını çiğneyip kendi çıkarını öne çıkarmak bencilliktir; sabırlı ve saygılı bir davranış değildir."
+ },
+ {
+  "d": "adap",
+  "k": "Öfke",
+  "q": "Aşağıdakilerden hangisi öfkenin sürücü üzerindeki etkilerinden biri **değildir**?",
+  "o": [
+   "Kural ihlali yapma eğiliminin artması",
+   "Dikkatin yoğunlaşmasını ve doğru karar vermeyi kolaylaştırması",
+   "Tehlikeli ve saldırgan davranışlara yönelme",
+   "Dikkatin dağılması"
+  ],
+  "a": 1,
+  "c": "Öfke dikkati dağıtır, yanlış kararlara ve kural ihlallerine yol açar; doğru karar vermeyi kolaylaştırmaz."
+ },
+ {
+  "d": "adap",
+  "k": "Öfke",
+  "q": "Trafikte öfkelendiğini fark eden bir sürücünün aşağıdakilerden hangisini yapması doğrudur?",
+  "o": [
+   "Öfkelendiği sürücüyü yakından takip etmesi",
+   "Sürekli korna çalarak tepkisini göstermesi",
+   "Derin nefes alarak sakinleşmeye çalışması",
+   "Hızını artırarak öfkesini atması"
+  ],
+  "a": 2,
+  "c": "Derin nefes almak sakinleşmeye yardım eder; takip etmek, korna çalmak veya hızlanmak öfkeyi ve tehlikeyi artırır."
+ },
+ {
+  "d": "adap",
+  "k": "Öfke",
+  "q": "I. Kural ihlallerine yol açar.\nII. Tehlikeli davranışları artırır.\nIII. Sürücünün dikkatini artırır.\nTrafikteki öfkeyle ilgili verilenlerden hangileri doğrudur?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 1,
+  "c": "Öfke kural ihlallerini ve tehlikeli davranışları artırır; dikkati artırmaz, dağıtır."
+ },
+ {
+  "d": "adap",
+  "k": "Öfke",
+  "q": "Kendisine kaba bir el hareketi yapan sürücüye karşı aşağıdakilerden hangisi en doğru davranıştır?",
+  "o": [
+   "Kışkırtmaya karşılık vermeden yoluna devam etmek",
+   "Aynı hareketle karşılık vermek",
+   "Aracın önüne geçip ani fren yapmak",
+   "Aracı durdurup sürücüyle tartışmak"
+  ],
+  "a": 0,
+  "c": "Kışkırtmalara karşılık vermemek, öfkenin büyüyüp tehlikeli bir çatışmaya dönüşmesini önler."
+ },
+ {
+  "d": "adap",
+  "k": "Öfke",
+  "q": "Aşağıdakilerden hangisi trafikte öfkeyi kontrol etmeye yardımcı bir davranış **değildir**?",
+  "o": [
+   "Yolculuğa zaman ayırarak erken çıkmak",
+   "Hatalı sürücüyle yarışa girmek",
+   "Başkalarının hatalarını kişisel algılamamak",
+   "Rahatlatıcı bir müziği düşük seste dinlemek"
+  ],
+  "a": 1,
+  "c": "Hatalı sürücüyle yarışmak öfkeyi körükler ve kazaya davetiye çıkarır."
+ },
+ {
+  "d": "adap",
+  "k": "Öfke",
+  "q": "Trafikte karşılaşılan olumsuzluklar karşısında öfkesine yenik düşen sürücüde aşağıdakilerden hangisinin görülmesi beklenir?",
+  "o": [
+   "Takip mesafesini artırma",
+   "Hızını yol koşullarına göre ayarlama",
+   "Ani ve kontrolsüz manevralar yapma",
+   "Diğer sürücülere yol verme"
+  ],
+  "a": 2,
+  "c": "Öfke, sürücüyü ani ve kontrolsüz manevralara yöneltir; diğer şıklar sakin ve güvenli sürüşün özellikleridir."
+ },
+ {
+  "d": "adap",
+  "k": "Stres ve yorgunluk",
+  "q": "Yorgun bir sürücüde aşağıdakilerden hangisinin görülmesi **beklenmez**?",
+  "o": [
+   "Dikkatin azalması",
+   "Göz kapaklarının ağırlaşması",
+   "Karar vermenin güçleşmesi",
+   "Tepki süresinin kısalması"
+  ],
+  "a": 3,
+  "c": "Yorgunluk tepki süresini kısaltmaz, uzatır; dikkat ve karar verme yeteneğini de azaltır."
+ },
+ {
+  "d": "adap",
+  "k": "Stres ve yorgunluk",
+  "q": "Uzun yolculuk yapacak bir sürücünün yorgunluğa karşı aşağıdakilerden hangisini yapması doğrudur?",
+  "o": [
+   "Belirli aralıklarla mola verip dinlenmesi",
+   "Gecikmemek için hiç mola vermemesi",
+   "Yorgunluğunu gidermek için hızını artırması",
+   "Yolculuğa uykusuz başlaması"
+  ],
+  "a": 0,
+  "c": "Düzenli mola vermek yorgunluğu azaltır ve dikkati korur."
+ },
+ {
+  "d": "adap",
+  "k": "Stres ve yorgunluk",
+  "q": "İşinde sorunlar yaşayan ve stresli bir şekilde direksiyona geçen sürücü için aşağıdakilerden hangisi söylenebilir?",
+  "o": [
+   "Tepki süresi kısalır.",
+   "Kaza yapma riski artar.",
+   "Dikkati daha da yoğunlaşır.",
+   "Kurallara uyma isteği artar."
+  ],
+  "a": 1,
+  "c": "Stres dikkati dağıtır ve hatalı karar vermeye yol açarak kaza riskini artırır."
+ },
+ {
+  "d": "adap",
+  "k": "Bencillik ve acelecilik",
+  "q": "Aşağıdakilerden hangisi trafik adabına **aykırıdır**?",
+  "o": [
+   "Dönüş yapmadan önce sinyal vermek",
+   "Yaya geçidinde yayaya yol vermek",
+   "Sırada bekleyen araçların önüne kırarak geçmek",
+   "Takip mesafesini korumak"
+  ],
+  "a": 2,
+  "c": "Sıradaki araçların önüne kırmak, başkalarının hakkını yok sayan bencil bir davranıştır."
+ },
+ {
+  "d": "adap",
+  "k": "Bencillik ve acelecilik",
+  "q": "Aşağıdakilerden hangisi bencil bir sürücü davranışıdır?",
+  "o": [
+   "Ambulansa yol vermek",
+   "Yayalara geçiş kolaylığı sağlamak",
+   "Şeridini koruyarak ilerlemek",
+   "Aracını engelli park yerine park etmek"
+  ],
+  "a": 3,
+  "c": "Engellilere ayrılmış yere park etmek, başkasının hakkını kendi rahatı için kullanmaktır."
+ },
+ {
+  "d": "adap",
+  "k": "Bencillik ve acelecilik",
+  "q": "Trafikte acele eden sürücülerde aşağıdakilerden hangisinin görülmesi beklenir?",
+  "o": [
+   "Sık sık şerit değiştirme",
+   "Hız sınırlarına uyma",
+   "Takip mesafesini koruma",
+   "Kavşaklarda yol verme"
+  ],
+  "a": 0,
+  "c": "Aceleci sürücüler sık şerit değiştirir, hız sınırlarını ve takip mesafesini ihlal eder."
+ },
+ {
+  "d": "adap",
+  "k": "Bencillik ve acelecilik",
+  "q": "Trafikte aceleci davranmamak için aşağıdakilerden hangisi yapılmalıdır?",
+  "o": [
+   "Kırmızı ışığa yakın hızlanılmalıdır.",
+   "Yolculuk öncesi yeterli zaman ayrılmalıdır.",
+   "Sarı ışıkta kavşağa hızla girilmelidir.",
+   "Öndeki araca yakın mesafede gidilmelidir."
+  ],
+  "a": 1,
+  "c": "Yola erken çıkıp yeterli zaman ayırmak, acele etme ihtiyacını ortadan kaldırır."
+ },
+ {
+  "d": "adap",
+  "k": "Yayalar ve hassas gruplar",
+  "q": "Yaya geçidine yaklaşan sürücü, karşıya geçmek için bekleyen yaşlı bir yaya gördüğünde aşağıdakilerden hangisini yapmalıdır?",
+  "o": [
+   "Korna çalarak yayayı uyarmalı ve geçmelidir.",
+   "Hızını artırarak yaya geçmeden geçidi geçmelidir.",
+   "Durup yayanın güvenle geçmesini beklemelidir.",
+   "Selektör yaparak yayanın beklemesini istemelidir."
+  ],
+  "a": 2,
+  "c": "Yaya geçidinde yayaya, özellikle yaşlılara öncelik verilir; sürücü durup güvenle geçmelerini bekler."
+ },
+ {
+  "d": "adap",
+  "k": "Yayalar ve hassas gruplar",
+  "q": "Okul çıkışı saatinde okul önünden geçen bir sürücünün aşağıdakilerden hangisini yapması doğrudur?",
+  "o": [
+   "Korna çalarak çocukları yoldan uzaklaştırması",
+   "Çocukları korkutmamak için hızlıca geçip gitmesi",
+   "Yalnızca öndeki aracı takip etmesi",
+   "Hızını azaltıp çocukların ani hareketlerine karşı dikkatli olması"
+  ],
+  "a": 3,
+  "c": "Çocuklar ani ve öngörülemez hareketler yapabilir; sürücü yavaşlayıp dikkatli olmalıdır."
+ },
+ {
+  "d": "adap",
+  "k": "Yayalar ve hassas gruplar",
+  "q": "Yağmurlu bir günde yol kenarındaki su birikintisinin yanından geçen sürücünün davranışlarından hangisi trafik adabına uygundur?",
+  "o": [
+   "Yavaşlayarak yayaların üzerine su sıçratmamak",
+   "Hızını koruyarak geçmek",
+   "Korna çalarak yayaları uyarıp hızla geçmek",
+   "Birikintinin içinden hızlanarak geçmek"
+  ],
+  "a": 0,
+  "c": "Yayaların üzerine su sıçratmamak için yavaşlamak saygı ve nezaketin gereğidir."
+ },
+ {
+  "d": "adap",
+  "k": "Yayalar ve hassas gruplar",
+  "q": "Bisikletliyi geçmek isteyen bir sürücünün aşağıdakilerden hangisini yapması doğrudur?",
+  "o": [
+   "Bisikletliye çok yakın geçerek onu sağa sıkıştırmak",
+   "Bisikletliyle arasında yeterli yanal mesafe bırakarak geçmek",
+   "Korna çalarak bisikletlinin yoldan çıkmasını istemek",
+   "Geçtikten hemen sonra önüne kırıp fren yapmak"
+  ],
+  "a": 1,
+  "c": "Bisikletliler korunmasız yol kullanıcılarıdır; yeterli yanal mesafe bırakarak geçmek gerekir."
+ },
+ {
+  "d": "adap",
+  "k": "Yayalar ve hassas gruplar",
+  "q": "Aşağıdakilerden hangisi engelli yol kullanıcılarına karşı trafik adabına **uygun olmayan** bir davranıştır?",
+  "o": [
+   "Görme engelli yayaya geçişte zaman tanımak",
+   "Tekerlekli sandalyedeki yayanın karşıya geçmesini beklemek",
+   "Engelli rampasının önüne park etmek",
+   "Engelli park yerlerini boş bırakmak"
+  ],
+  "a": 2,
+  "c": "Rampanın önüne park etmek engellilerin hareketini engeller; trafik adabına aykırıdır."
+ },
+ {
+  "d": "adap",
+  "k": "Korna ve selektör",
+  "q": "Aşağıdakilerden hangisi kornanın trafik adabına uygun kullanımıdır?",
+  "o": [
+   "Yeşil ışık yanar yanmaz öndeki aracı uyarmak için çalmak",
+   "Tanıdık birini selamlamak için çalmak",
+   "Konvoy hâlinde uzun süre çalmak",
+   "Bir tehlikeyi önlemek için zorunlu hâllerde kısa süreli kullanmak"
+  ],
+  "a": 3,
+  "c": "Korna yalnızca tehlikeyi önlemek gibi zorunlu durumlarda ve kısa süreli kullanılmalıdır."
+ },
+ {
+  "d": "adap",
+  "k": "Korna ve selektör",
+  "q": "Gereksiz yere korna çalınması aşağıdakilerden hangisine yol açar?",
+  "o": [
+   "Gürültü kirliliğine ve diğer sürücülerin rahatsız olmasına",
+   "Trafik akışının hızlanmasına",
+   "Kaza riskinin azalmasına",
+   "Sürücüler arası iletişimin güçlenmesine"
+  ],
+  "a": 0,
+  "c": "Gereksiz korna gürültü kirliliği yaratır, insanları rahatsız eder ve gerginliği artırır."
+ },
+ {
+  "d": "adap",
+  "k": "Korna ve selektör",
+  "q": "Gece karşıdan gelen araç uzağı gösteren farlarını kısmadığında sürücünün aşağıdakilerden hangisini yapması doğrudur?",
+  "o": [
+   "O da uzağı gösteren farlarını yakarak karşılık vermek",
+   "Bir kez kısa selektörle uyarıp kendi farlarını kısa tutmak",
+   "Sürekli selektör yapıp korna çalmak",
+   "Aracını şeridin ortasına çekerek karşı aracı zorlamak"
+  ],
+  "a": 1,
+  "c": "Karşılık olarak uzun far yakmak iki sürücüyü de kör eder; kısa bir uyarı yapıp kendi farlarını kısa tutmak doğrudur."
+ },
+ {
+  "d": "adap",
+  "k": "İletişim ve beden dili",
+  "q": "Trafikte sürücüler arasındaki iletişimle ilgili aşağıdakilerden hangisi **yanlıştır**?",
+  "o": [
+   "Sinyal vermek, sürücünün niyetini diğerlerine bildirir.",
+   "Teşekkür için el kaldırmak olumlu bir iletişimdir.",
+   "Kaba el ve yüz hareketleri iletişimi güçlendirir.",
+   "Göz teması kurmak yayalarla iletişimi kolaylaştırır."
+  ],
+  "a": 2,
+  "c": "Kaba el ve yüz hareketleri iletişimi güçlendirmez; tartışma ve öfkeye yol açar."
+ },
+ {
+  "d": "adap",
+  "k": "İletişim ve beden dili",
+  "q": "Kendisine yol veren sürücüye elini kaldırarak teşekkür eden sürücü, aşağıdakilerden hangisini kullanmıştır?",
+  "o": [
+   "Uyarı ışıklarını",
+   "Ses işaretini",
+   "Yatay işaretlemeleri",
+   "Beden dilini"
+  ],
+  "a": 3,
+  "c": "El kaldırmak, sözsüz iletişim olan beden dilinin bir örneğidir."
+ },
+ {
+  "d": "adap",
+  "k": "İletişim ve beden dili",
+  "q": "Trafikte iletişim kurmanın amacı aşağıdakilerden hangisidir?",
+  "o": [
+   "Yol kullanıcılarının birbirinin niyetini anlayarak güvenli hareket etmesini sağlamak",
+   "Diğer sürücülere üstünlük kurmak",
+   "Haklı olduğunu karşı tarafa kabul ettirmek",
+   "Diğer sürücüleri hızlanmaya zorlamak"
+  ],
+  "a": 0,
+  "c": "İletişimin amacı niyetleri karşılıklı anlaşılır kılarak trafiğin güvenli akmasını sağlamaktır."
+ },
+ {
+  "d": "adap",
+  "k": "Kazaların sonuçları",
+  "q": "Aşağıdakilerden hangisi trafik kazalarının ekonomik zararlarından biridir?",
+  "o": [
+   "Trafik adabının gelişmesi",
+   "İş gücü kaybı",
+   "Yolların genişlemesi",
+   "Araç sayısının azalması"
+  ],
+  "a": 1,
+  "c": "Kazalar yaralanma ve ölümler nedeniyle iş gücü kaybına ve sağlık harcamalarına yol açar."
+ },
+ {
+  "d": "adap",
+  "k": "Kazaların sonuçları",
+  "q": "Aşağıdakilerden hangisi trafik kazalarının zararlarından biri **değildir**?",
+  "o": [
+   "Sağlık harcamalarının artması",
+   "Kazaya karışanlarda psikolojik travma oluşması",
+   "Yol kullanıcıları arasında güvenin artması",
+   "Çevrenin ve kamu malının zarar görmesi"
+  ],
+  "a": 2,
+  "c": "Kazaların ekonomik, psikolojik ve çevresel zararları vardır; güvenin artması bir zarar değildir, kazalar güveni azaltır."
+ },
+ {
+  "d": "adap",
+  "k": "Kazaların sonuçları",
+  "q": "I. Ailelerin parçalanması ve psikolojik sorunlar\nII. Ülke ekonomisine yük getirmesi\nIII. Toplumda kurallara güvenin azalması\nTrafik kurallarının ihlal edilmesinin toplumsal sonuçlarıyla ilgili verilenlerden hangileri doğrudur?",
+  "o": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "a": 3,
+  "c": "Kural ihlalleri kazalarla aileleri ve ekonomiyi etkiler, toplumdaki güven duygusunu da zedeler; üçü de doğrudur."
+ },
+ {
+  "d": "adap",
+  "k": "Sürücü özellikleri",
+  "q": "Sürücünün bir tehlikeyi fark etmesinden harekete geçmesine kadar geçen süreye ne ad verilir?",
+  "o": [
+   "Reaksiyon (tepki) süresi",
+   "Duraklama süresi",
+   "Takip süresi",
+   "Fren mesafesi"
+  ],
+  "a": 0,
+  "c": "Tehlikenin algılanmasından tepki verilmesine kadar geçen süre reaksiyon (tepki) süresidir."
+ },
+ {
+  "d": "adap",
+  "k": "Sürücü özellikleri",
+  "q": "Aşağıdakilerden hangisi sürücünün tepki süresini uzatan etkenlerden biri **değildir**?",
+  "o": [
+   "Yorgunluk",
+   "Dinlenmiş ve dikkatli olması",
+   "Alkol kullanımı",
+   "Dikkat dağınıklığı"
+  ],
+  "a": 1,
+  "c": "Dinlenmiş ve dikkatli olmak tepki süresini uzatmaz; yorgunluk, alkol ve dikkat dağınıklığı uzatır."
+ },
+ {
+  "d": "adap",
+  "k": "Sürücü özellikleri",
+  "q": "Sürücünün çevresindeki trafik işaretlerini, araçları ve yayaları zamanında fark edip doğru yorumlayabilmesi aşağıdakilerden hangisiyle ilgilidir?",
+  "o": [
+   "Refleks",
+   "Sabır",
+   "Algı",
+   "Hoşgörü"
+  ],
+  "a": 2,
+  "c": "Çevredeki uyaranları fark edip anlamlandırma yeteneği algıdır."
+ },
+ {
+  "d": "adap",
+  "k": "Dikkat dağınıklığı",
+  "q": "Seyir hâlinde cep telefonuyla mesajlaşan sürücü için aşağıdakilerden hangisi söylenebilir?",
+  "o": [
+   "Tepki süresi kısalır.",
+   "Trafiği daha iyi takip eder.",
+   "Takip mesafesini daha iyi ayarlar.",
+   "Gözleri yoldan ayrıldığı için kaza riski artar."
+  ],
+  "a": 3,
+  "c": "Mesajlaşmak gözleri ve dikkati yoldan uzaklaştırır, tepki süresini uzatır ve kaza riskini artırır."
+ },
+ {
+  "d": "adap",
+  "k": "Dikkat dağınıklığı",
+  "q": "Aşağıdakilerden hangisi sürüş sırasında dikkat dağınıklığına yol **açmaz**?",
+  "o": [
+   "Aynaların düzenli aralıklarla kontrol edilmesi",
+   "Seyir hâlinde navigasyon ayarı yapılması",
+   "Yüksek sesle müzik dinlenmesi",
+   "Yolcularla hararetli tartışmaya girilmesi"
+  ],
+  "a": 0,
+  "c": "Aynaları düzenli kontrol etmek güvenli sürüşün parçasıdır; diğerleri dikkati yoldan uzaklaştırır."
+ },
+ {
+  "d": "adap",
+  "k": "Uykusuzluk",
+  "q": "Direksiyon başında uykusunun geldiğini fark eden sürücünün aşağıdakilerden hangisini yapması doğrudur?",
+  "o": [
+   "Pencereyi açıp yola devam etmesi",
+   "Güvenli bir yerde durup dinlenmesi",
+   "Müziğin sesini açarak yola devam etmesi",
+   "Hızını artırıp bir an önce varmaya çalışması"
+  ],
+  "a": 1,
+  "c": "Uykusuzluğun tek güvenli çözümü durup dinlenmektir; pencere açmak ya da müzik açmak uykuyu gidermez."
+ },
+ {
+  "d": "adap",
+  "k": "İlaç ve alkol",
+  "q": "Doktorun verdiği ilacın prospektüsünde \"uyku hâli yapabilir\" uyarısını gören sürücünün aşağıdakilerden hangisini yapması doğrudur?",
+  "o": [
+   "Dikkatli olmak şartıyla araç kullanması",
+   "Etkisini azaltmak için yanında kahve içmesi",
+   "İlacın etkisi geçene kadar araç kullanmaması",
+   "Yalnızca kısa mesafelerde araç kullanması"
+  ],
+  "a": 2,
+  "c": "Uyku hâli yapan ilaçlar dikkat ve refleksleri azaltır; etkisi geçene kadar araç kullanılmamalıdır."
+ }
+]

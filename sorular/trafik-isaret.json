@@ -1,0 +1,1247 @@
+[
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-sollama",
+  "o": [
+   "Öndeki taşıtı geçmek yasaktır",
+   "İki yönlü trafik",
+   "Karşıdan gelene yol ver",
+   "Taşıt trafiğine kapalı yol"
+  ],
+  "a": 0,
+  "c": "Kırmızı kenarlı dairede biri kırmızı iki otomobil bulunan işaret “Öndeki taşıtı geçmek yasaktır” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu yol kesiminde aşağıdakilerden hangisi yasaktır?",
+  "g": "y-sollama",
+  "o": [
+   "Sağ şeritten yola devam etmek",
+   "Hızı azaltmak",
+   "Motorlu taşıtla öndeki taşıtı geçmek",
+   "Kısa far kullanmak"
+  ],
+  "a": 2,
+  "c": "“Öndeki taşıtı geçmek yasaktır” işareti, yasağın sonu belirtilinceye kadar geçme yapılamayacağını bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-kamyon-gecme",
+  "o": [
+   "Kamyon giremez",
+   "Yük taşıtlarının öndeki taşıtı geçmesi yasaktır",
+   "Otomobillerin kamyonları geçmesi yasaktır",
+   "Kamyonlar için geçme yasağı sonu"
+  ],
+  "a": 1,
+  "c": "Kırmızı kamyon ve siyah otomobil bulunan işaret “Yük taşıtlarının öndeki taşıtı geçmesi yasaktır” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu yolda aşağıdakilerden hangisi doğrudur?",
+  "g": "y-kamyon-gecme",
+  "o": [
+   "Otomobil sürücüsü öndeki kamyonu geçemez.",
+   "Kamyonların bu yola girmesi yasaktır.",
+   "Kamyonlar yalnızca sol şeridi kullanabilir.",
+   "Kamyon sürücüsü öndeki taşıtı geçemez."
+  ],
+  "a": 3,
+  "c": "“Yük taşıtlarının öndeki taşıtı geçmesi yasaktır” işareti yalnız yük taşıtlarına geçme yasağı getirir; otomobiller kurallara uyarak geçebilir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-kamyon-gecme-sonu",
+  "o": [
+   "Yük taşıtlarının öndeki taşıtı geçmesi yasaktır",
+   "Bütün yasaklama ve kısıtlamaların sonu",
+   "Kamyon giremez yasağının sonu",
+   "Kamyonlar için geçme yasağı sonu"
+  ],
+  "a": 3,
+  "c": "Gri renkli ve çapraz çizgili kamyon-otomobil sembolü “Kamyonlar için geçme yasağı sonu” anlamındadır."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-sollama-sonu",
+  "o": [
+   "Öndeki taşıtı geçmek yasaktır",
+   "Geçme yasağı sonu",
+   "Hız sınırlaması sonu",
+   "Taşıt trafiğine kapalı yol"
+  ],
+  "a": 1,
+  "c": "Gri iki otomobilin üzerinde çapraz çizgiler bulunan işaret “Geçme yasağı sonu” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-okul-gecidi",
+  "o": [
+   "Okul geçidi",
+   "Yaya geçidi",
+   "Yaya giremez",
+   "Yaya yolu"
+  ],
+  "a": 0,
+  "c": "Üçgen içinde iki çocuk bulunan işaret “Okul geçidi” tehlike uyarı işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işareti gören sürücü aşağıdakilerden hangisini yapmalıdır?",
+  "g": "t-okul-gecidi",
+  "o": [
+   "Geçidi hızla geçmek için öndeki aracı geçmelidir.",
+   "Sesli işaret vererek çocukları uyarmalı ve hızını korumalıdır.",
+   "Hızını azaltıp okul çocuklarına karşı dikkatli olmalıdır.",
+   "Geçidin üzerinde park etmelidir."
+  ],
+  "a": 2,
+  "c": "“Okul geçidi” işaretine yaklaşırken yavaşlanır; geçitte ve geçide yaklaşırken geçme yapılmaz, duraklanmaz."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretle karşılaşan sürücü aşağıdakilerden hangisini yapmalıdır?",
+  "g": "yol-ver",
+  "o": [
+   "Geçiş hakkı kendisinde olduğundan hızını korumalıdır.",
+   "Ana yoldaki araçlara yol vermeli, gerekiyorsa durmalıdır.",
+   "Sadece sağdan gelen araçlara yol vermelidir.",
+   "Kavşağa girip ortasında beklemelidir."
+  ],
+  "a": 1,
+  "c": "“Yol ver” işaretini gören sürücü ana yoldaki trafiğe yol verir, gerekiyorsa durur; trafik uygunsa durmadan da geçebilir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-karsidan-gelene",
+  "o": [
+   "Önceliği olan yön (karşıdan gelene göre)",
+   "İki yönlü trafik",
+   "Tek yönlü yol",
+   "Karşıdan gelene yol ver"
+  ],
+  "a": 3,
+  "c": "Kırmızı kenarlı dairede zıt yönlü iki ok bulunan işaret “Karşıdan gelene yol ver” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu dar köprüye yaklaşan sürücü aşağıdakilerden hangisini yapmalıdır?",
+  "g": "y-karsidan-gelene",
+  "o": [
+   "Karşıdan gelen aracı ışıkla uyarıp önce geçmelidir.",
+   "Köprüye karşıdan gelenlerden önce girmek için hızlanmalıdır.",
+   "Karşı yönden gelen araç geçinceye kadar beklemelidir.",
+   "Köprü üzerinde duraklayıp karşıdan geleni beklemelidir."
+  ],
+  "a": 2,
+  "c": "“Karşıdan gelene yol ver” işareti olan yerde geçiş önceliği karşı yönden gelenlerindir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-girilmez",
+  "o": [
+   "Girişi olmayan yol",
+   "Taşıt trafiğine kapalı yol",
+   "Duraklamak ve park etmek yasaktır",
+   "Bütün yasaklama ve kısıtlamaların sonu"
+  ],
+  "a": 0,
+  "c": "Kırmızı daire içinde beyaz yatay bant bulunan işaret “Girişi olmayan yol” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu yol için aşağıdakilerden hangisi doğrudur?",
+  "g": "y-girilmez",
+  "o": [
+   "Bu yolda yalnızca park etmek yasaktır.",
+   "Bu yolda yalnızca kamyonların geçmesi yasaktır.",
+   "Bu yola işaretin bulunduğu yönden taşıtla girilemez.",
+   "Bu yolda azami hız sınırı sona ermektedir."
+  ],
+  "a": 2,
+  "c": "“Girişi olmayan yol” işareti genellikle tek yönlü yolların çıkışına konur ve o yönden girişi yasaklar."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-gabari",
+  "o": [
+   "Yüksekliği 3,50 metreden fazla olan taşıt giremez",
+   "Genişliği 3,50 metreden fazla olan taşıt giremez",
+   "Uzunluğu 3,50 metreden fazla olan taşıt giremez",
+   "Azami ağırlığı 3,5 tondan fazla olan taşıt giremez"
+  ],
+  "a": 0,
+  "c": "Uçları birbirine bakan dikey oklar yükseklik (gabari) sınırlamasını gösterir: “Yüksekliği 3,50 metreden fazla olan taşıt giremez”."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Yüksekliği 4 metre olan bir kamyonun sürücüsü şekildeki işaretle karşılaşırsa ne yapmalıdır?",
+  "g": "y-gabari",
+  "o": [
+   "Hızını azaltarak yola girebilir.",
+   "Sadece gündüz saatlerinde girebilir.",
+   "Sol şeridi kullanarak girebilir.",
+   "Bu yola girmemeli, başka güzergâh kullanmalıdır."
+  ],
+  "a": 3,
+  "c": "“Yüksekliği 3,50 metreden fazla olan taşıt giremez” işareti bu sınırı aşan taşıtların yola girmesini yasaklar."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-tum-yasak-sonu",
+  "o": [
+   "Girişi olmayan yol",
+   "Bütün yasaklama ve kısıtlamaların sonu",
+   "Taşıt trafiğine kapalı yol",
+   "Park etmek yasaktır"
+  ],
+  "a": 1,
+  "c": "Beyaz daire üzerinde çapraz çizgi bulunan işaret, daha önce konulmuş bütün yasaklama ve kısıtlamaların sona erdiğini bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-hiz-sonu",
+  "o": [
+   "Hız sınırlaması sonu (50 km/saat)",
+   "Azami hız sınırlaması (50 km/saat)",
+   "Asgari hız sınırlaması (50 km/saat)",
+   "Bütün yasaklama ve kısıtlamaların sonu"
+  ],
+  "a": 0,
+  "c": "Gri rakam üzerinde çapraz çizgiler bulunan işaret “Hız sınırlaması sonu” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-evcil-hayvan",
+  "o": [
+   "Vahşi hayvanlar geçebilir",
+   "Hayvanların giremeyeceği yol",
+   "Ehli hayvanlar geçebilir",
+   "Hayvanla çekilen taşıt giremez"
+  ],
+  "a": 2,
+  "c": "Üçgen içinde inek sembolü bulunan işaret “Ehli hayvanlar geçebilir” tehlike uyarı işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-gizli-buzlanma",
+  "o": [
+   "Kaygan yol",
+   "Gizli buzlanma",
+   "Yandan rüzgâr",
+   "Gevşek malzemeli zemin"
+  ],
+  "a": 1,
+  "c": "Üçgen içinde kar tanesi bulunan işaret “Gizli buzlanma” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu yolda soğuk havada aşağıdakilerden hangisi yapılmalıdır?",
+  "g": "t-gizli-buzlanma",
+  "o": [
+   "Yol kuru göründüğünden normal hızla devam edilmelidir.",
+   "Tutunmayı artırmak için hız artırılmalıdır.",
+   "Sık sık ani fren yapılarak yol kontrol edilmelidir.",
+   "Hız azaltılmalı, ani fren ve ani direksiyon hareketlerinden kaçınılmalıdır."
+  ],
+  "a": 3,
+  "c": "“Gizli buzlanma” işareti, gözle görülmeyen buzlanma olabileceğini bildirir; yavaş ve yumuşak sürülmelidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-demiryolu-kontrolsuz",
+  "o": [
+   "Kontrollü demiryolu geçidi",
+   "Tramvay hattı",
+   "Yolda çalışma",
+   "Kontrolsüz demiryolu geçidi"
+  ],
+  "a": 3,
+  "c": "Üçgen içinde lokomotif bulunan işaret bariyersiz “Kontrolsüz demiryolu geçidi” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu yerde aşağıdakilerden hangisi yapılmalıdır?",
+  "g": "t-demiryolu-kontrolsuz",
+  "o": [
+   "Bariyer olmadığından hız azaltılmadan geçilmelidir.",
+   "Geçide yaklaşırken yavaşlanmalı, durup tren gelmediğinden emin olduktan sonra geçilmelidir.",
+   "Geçide yaklaşırken öndeki taşıt geçilmelidir.",
+   "Geçit üzerinde durularak tren beklenmelidir."
+  ],
+  "a": 1,
+  "c": "“Kontrolsüz demiryolu geçidi”nde sürücü uygun mesafede durur, tren gelmediğinden emin olunca geçer; geçitte ve geçide yaklaşırken geçme yapılmaz."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-egim-inis",
+  "o": [
+   "Tehlikeli eğim (iniş)",
+   "Tehlikeli eğim (çıkış)",
+   "Deniz veya nehir kıyısında biten yol",
+   "Kasisli yol"
+  ],
+  "a": 0,
+  "c": "Yüzde değeri ve aşağı inen eğim çizilen üçgen “Tehlikeli eğim (iniş)” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu yolda aşağıdakilerden hangisi doğru bir davranıştır?",
+  "g": "t-egim-inis",
+  "o": [
+   "Vitesi boşa alıp inmek",
+   "Sürekli fren pedalına basarak inmek",
+   "Küçük vitese geçip motor freninden yararlanmak",
+   "Hızı artırıp öndeki taşıtı geçmek"
+  ],
+  "a": 2,
+  "c": "“Tehlikeli eğim (iniş)” yolunda balatalar ısınmasın diye küçük viteste motor freni kullanılır; araç boşta indirilmez."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-kaygan-yol",
+  "o": [
+   "Sola tehlikeli devamlı viraj",
+   "Kaygan yol",
+   "Gevşek malzemeli zemin",
+   "Gizli buzlanma"
+  ],
+  "a": 1,
+  "c": "Üçgende arkasında kıvrık patinaj izleri olan araç sembolü “Kaygan yol” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu yolda yağışlı havada aşağıdakilerden hangisi yapılmalıdır?",
+  "g": "t-kaygan-yol",
+  "o": [
+   "Takip mesafesi kısaltılmalıdır.",
+   "Ani frenle hız kontrol edilmelidir.",
+   "Virajlara yüksek hızla girilmelidir.",
+   "Hız azaltılmalı ve takip mesafesi artırılmalıdır."
+  ],
+  "a": 3,
+  "c": "“Kaygan yol” işareti yolun kayganlaşabileceğini bildirir; hız düşürülür, mesafe artırılır, ani manevralardan kaçınılır."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-saga-viraj",
+  "o": [
+   "Sola tehlikeli viraj",
+   "Sağa mecburi yön",
+   "Sağa tehlikeli viraj",
+   "Sola tehlikeli devamlı viraj"
+  ],
+  "a": 2,
+  "c": "Üçgen içinde sağa kıvrılan yol sembolü “Sağa tehlikeli viraj” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-devamli-viraj",
+  "o": [
+   "Sola tehlikeli devamlı viraj",
+   "Sola tehlikeli viraj",
+   "Kaygan yol",
+   "İki taraftan daralan kaplama"
+  ],
+  "a": 0,
+  "c": "Önce sola kıvrılıp devam eden çift kıvrımlı sembol “Sola tehlikeli devamlı viraj” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-yol-calismasi",
+  "o": [
+   "Gevşek malzemeli zemin",
+   "Yaya geçidi",
+   "Yolda çalışma",
+   "Dikkat"
+  ],
+  "a": 2,
+  "c": "Üçgen içinde kürekle çalışan işçi sembolü “Yolda çalışma” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-iki-yonlu",
+  "o": [
+   "İki yönlü trafik",
+   "Tek yönlü yol",
+   "Karşıdan gelene yol ver",
+   "Önceliği olan yön (karşıdan gelene göre)"
+  ],
+  "a": 0,
+  "c": "Üçgen içinde zıt yönlü iki ok bulunan işaret “İki yönlü trafik” işaretidir; ileride iki yönlü trafiğe geçildiğini bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-diger-tehlike",
+  "o": [
+   "Ana yol",
+   "Yol ver",
+   "Bütün yasaklama ve kısıtlamaların sonu",
+   "Dikkat (diğer tehlikeler)"
+  ],
+  "a": 3,
+  "c": "Üçgen içinde ünlem bulunan işaret “Dikkat” işaretidir; başka bir işaretle belirtilmeyen tehlikeleri bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaret ana yolda seyreden sürücüye aşağıdakilerden hangisini bildirir?",
+  "g": "t-ana-tali",
+  "o": [
+   "Sağdan gelen araçlara yol verilmesi gerektiğini",
+   "Ana yola sağdan bir tali yolun bağlandığı kavşağa yaklaşıldığını",
+   "Sağa mecburi dönüş yapılacağını",
+   "Yolun sağdan daraldığını"
+  ],
+  "a": 1,
+  "c": "“Ana yol – tali yol kavşağı” işaretinde kalın çizgi ana yolu, ince çizgi tali yolu gösterir; tali yoldan gelenler yol verir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "t-donel-kavsak",
+  "o": [
+   "Dönel kavşak",
+   "Ada etrafında dönünüz",
+   "U dönüşü yapılmaz",
+   "İki yönlü trafik"
+  ],
+  "a": 0,
+  "c": "Üçgen içinde daire biçiminde oklar bulunan işaret “Dönel kavşak” tehlike uyarı işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-u-donusu",
+  "o": [
+   "Sola dönülmez",
+   "Sağa dönülmez",
+   "U dönüşü yapılmaz",
+   "Dönel kavşak"
+  ],
+  "a": 2,
+  "c": "Kırmızı kenarlı dairede çizili U oku bulunan işaret “U dönüşü yapılmaz” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretin bulunduğu yola aşağıdakilerden hangisi giremez?",
+  "g": "y-kamyon",
+  "o": [
+   "Otomobil",
+   "Kamyon",
+   "Motosiklet",
+   "Bisiklet"
+  ],
+  "a": 1,
+  "c": "Kırmızı kenarlı dairede kamyon sembolü bulunan işaret “Kamyon giremez” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "y-motosiklet",
+  "o": [
+   "Bisiklet giremez",
+   "Motorlu taşıt giremez",
+   "Motosiklet yolu",
+   "Motosiklet giremez"
+  ],
+  "a": 3,
+  "c": "Kırmızı kenarlı dairede siyah motosiklet sembolü “Motosiklet giremez” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaretle karşılaşan sürücü aşağıdakilerden hangisini yapmalıdır?",
+  "g": "dur",
+  "o": [
+   "Yol boşsa durmadan geçmelidir.",
+   "Yalnızca soldan gelenlere yol vermelidir.",
+   "Hızını azaltıp sesli işaret vererek geçmelidir.",
+   "Durma çizgisinde mutlaka durmalı, yolu kontrol edip yol vererek geçmelidir."
+  ],
+  "a": 3,
+  "c": "Kırmızı sekizgen “DUR” işaretinde trafik olmasa bile tam durulur, sonra yol verilerek geçilir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "b-oncelikli-yon",
+  "o": [
+   "Karşıdan gelene yol ver",
+   "Önceliği olan yön (karşıdan gelene göre)",
+   "İki yönlü trafik",
+   "Tek yönlü yol"
+  ],
+  "a": 1,
+  "c": "Mavi kare içinde büyük beyaz ok ve küçük kırmızı ok bulunan işaret, dar yolda karşıdan gelene göre geçiş önceliğinin sizde olduğunu bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki trafik işaretinin anlamı nedir?",
+  "g": "m-ada-donel",
+  "o": [
+   "Ada etrafında dönünüz",
+   "Dönel kavşak",
+   "U dönüşü yapılmaz",
+   "İleri mecburi yön"
+  ],
+  "a": 0,
+  "c": "Mavi daire içinde daire biçimli beyaz oklar bulunan mecburiyet işareti “Ada etrafında dönünüz” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaret hangi grup trafik işaretlerindendir?",
+  "g": "t-yaya-gecidi",
+  "o": [
+   "Trafik tanzim işaretleri",
+   "Bilgi işaretleri",
+   "Tehlike uyarı işaretleri",
+   "Duraklama ve park işaretleri"
+  ],
+  "a": 2,
+  "c": "Kırmızı kenarlı üçgen içindeki “Yaya geçidi” işareti tehlike uyarı işaretlerindendir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaret hangi grup trafik işaretlerindendir?",
+  "g": "y-korna",
+  "o": [
+   "Tehlike uyarı işaretleri",
+   "Trafik tanzim işaretleri",
+   "Bilgi işaretleri",
+   "Yatay işaretlemeler"
+  ],
+  "a": 1,
+  "c": "“Sesli işaret vermek yasaktır” işareti yasaklama bildiren trafik tanzim işaretlerindendir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Şekildeki işaret hangi grup trafik işaretlerindendir?",
+  "g": "b-hastane",
+  "o": [
+   "Trafik tanzim işaretleri",
+   "Tehlike uyarı işaretleri",
+   "Duraklama ve park işaretleri",
+   "Bilgi işaretleri"
+  ],
+  "a": 3,
+  "c": "Mavi dikdörtgen zeminli “Hastane” işareti bilgi işaretlerindendir."
+ },
+ {
+  "d": "trafik",
+  "k": "Işıklı işaretler",
+  "q": "Şekildeki ışıklı işaret aşağıdakilerden hangisini bildirir?",
+  "g": "isik-sari-yanip",
+  "o": [
+   "Kesinlikle durulması gerektiğini",
+   "Yeşil ışığın yanmak üzere olduğunu",
+   "Yavaşlayarak ve dikkatli şekilde geçilmesi gerektiğini",
+   "Kavşağın trafiğe kapalı olduğunu"
+  ],
+  "a": 2,
+  "c": "Aralıklı yanıp sönen sarı ışık, yavaş ve dikkatli geçilmesi gerektiğini bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Işıklı işaretler",
+  "q": "Şekildeki ışıklı işaret aşağıdakilerden hangisini bildirir?",
+  "g": "isik-kirmizi-sari",
+  "o": [
+   "Yeşil ışığın yanacağını; hazırlanılması ama harekete geçilmemesi gerektiğini",
+   "Kavşaktan hemen geçilmesi gerektiğini",
+   "Kavşağa girmiş araçların geri çekilmesi gerektiğini",
+   "Işığın arızalı olduğunu"
+  ],
+  "a": 0,
+  "c": "Kırmızı ve sarı ışığın birlikte yanması yeşilin yanacağını bildirir; yeşil yanmadan hareket edilmez."
+ },
+ {
+  "d": "trafik",
+  "k": "Işıklı işaretler",
+  "q": "Şekildeki ışık yandığında kavşağa çok yakın olup güvenle duramayacak durumdaki sürücü ne yapmalıdır?",
+  "g": "isik-sari",
+  "o": [
+   "Ani fren yaparak kavşağın ortasında durmalıdır.",
+   "Geri vitese takarak geri çekilmelidir.",
+   "Dikkatli şekilde kavşaktan geçmelidir.",
+   "Hızlanarak önündeki aracı geçmelidir."
+  ],
+  "a": 2,
+  "c": "Sarı ışıkta durulur; ancak kavşağa girmiş veya duramayacak kadar yaklaşmış araç dikkatle geçer."
+ },
+ {
+  "d": "trafik",
+  "k": "Işıklı işaretler",
+  "q": "Şekildeki ışık yanarken kavşağın çıkışı araçlarla dolu ise sürücü ne yapmalıdır?",
+  "g": "isik-yesil",
+  "o": [
+   "Kavşağı tıkamamak için kavşağa girmemeli, beklemelidir.",
+   "Yeşil ışık yandığı için kavşağa girmelidir.",
+   "Sesli işaret vererek önündekileri uyarmalıdır.",
+   "Karşı şeride geçerek ilerlemelidir."
+  ],
+  "a": 0,
+  "c": "Yeşil ışık geçiş izni verse de kavşak tıkanacaksa kavşağa girilmez."
+ },
+ {
+  "d": "trafik",
+  "k": "Yol çizgileri",
+  "q": "Şekildeki yol çizgisi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "g": "c-kesik",
+  "o": [
+   "Hiçbir şekilde üzerinden geçilemez.",
+   "Taşıtların park yerini gösterir.",
+   "Yalnızca yaya geçidini gösterir.",
+   "Kurallara uyularak şerit değiştirilebilir ve geçme yapılabilir."
+  ],
+  "a": 3,
+  "c": "Kesik yol çizgisi şeritleri ayırır; güvenli olduğunda şerit değiştirmeye ve geçmeye izin verir."
+ },
+ {
+  "d": "trafik",
+  "k": "Yol çizgileri",
+  "q": "Şekildeki yol çizgisi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "g": "c-devamli",
+  "o": [
+   "Güvenli ise geçme yapılabilir.",
+   "Üzerinden geçilemez; şerit değiştirmek ve geçme yapmak yasaktır.",
+   "Yalnızca gece geçerlidir.",
+   "Duraklama yapılabilecek alanı gösterir."
+  ],
+  "a": 1,
+  "c": "Devamlı yol çizgisi geçilmez; şerit değiştirme ve geçme yasaktır."
+ },
+ {
+  "d": "trafik",
+  "k": "Yol çizgileri",
+  "q": "Şekildeki yol çizgisi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "g": "c-cift-devamli",
+  "o": [
+   "Karşı yönleri ayırır; hiçbir yönden üzerine basılamaz ve geçilemez.",
+   "Yalnızca sağdaki taşıtlar geçebilir.",
+   "Yalnızca soldaki taşıtlar geçebilir.",
+   "Şerit değiştirmeye izin verir."
+  ],
+  "a": 0,
+  "c": "Çift devamlı yol çizgisi zıt yönlü trafiği ayırır; iki yönden de geçilemez."
+ },
+ {
+  "d": "trafik",
+  "k": "Yol çizgileri",
+  "q": "Şekildeki yol çizgisi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "g": "c-kesik-devamli",
+  "o": [
+   "Devamlı çizgi tarafındaki sürücü geçme yapabilir.",
+   "İki taraftaki sürücü de geçme yapabilir.",
+   "Kesik çizgi tarafındaki sürücü geçme yapabilir, devamlı çizgi tarafındaki yapamaz.",
+   "İki taraftaki sürücü de geçme yapamaz."
+  ],
+  "a": 2,
+  "c": "Yan yana kesik ve devamlı çizgide yalnızca kesik çizgi tarafındaki araç çizgiyi geçebilir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Öndeki taşıtı geçmek yasaktır” işaretidir?",
+  "og": true,
+  "o": [
+   "y-kamyon-gecme",
+   "y-sollama",
+   "y-sollama-sonu",
+   "y-karsidan-gelene"
+  ],
+  "a": 1,
+  "c": "Kırmızı kenarlı dairede biri kırmızı iki otomobil bulunan işaret “Öndeki taşıtı geçmek yasaktır” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Yük taşıtlarının öndeki taşıtı geçmesi yasaktır” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "y-sollama",
+   "y-kamyon",
+   "y-kamyon-gecme-sonu",
+   "y-kamyon-gecme"
+  ],
+  "a": 3,
+  "c": "Bu işarette kamyon kırmızı, otomobil siyah çizilir; “Kamyon giremez” işaretinde yalnız kamyon bulunur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Geçme yasağı sonu” işaretidir?",
+  "og": true,
+  "o": [
+   "y-kamyon-gecme-sonu",
+   "y-tum-yasak-sonu",
+   "y-hiz-sonu",
+   "y-sollama-sonu"
+  ],
+  "a": 3,
+  "c": "“Geçme yasağı sonu” işaretinde gri iki otomobil üzerinde çapraz çizgiler bulunur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Kamyonlar için geçme yasağı sonu” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "y-sollama-sonu",
+   "y-kamyon-gecme-sonu",
+   "y-kamyon-gecme",
+   "y-tum-yasak-sonu"
+  ],
+  "a": 1,
+  "c": "Gri kamyon ve otomobil üzerinde çapraz çizgiler bulunan işaret “Kamyonlar için geçme yasağı sonu”dur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Bütün yasaklama ve kısıtlamaların sonu” işaretidir?",
+  "og": true,
+  "o": [
+   "y-tum-yasak-sonu",
+   "y-hiz-sonu",
+   "y-sollama-sonu",
+   "b-ana-yol-sonu"
+  ],
+  "a": 0,
+  "c": "Sembolsüz beyaz daire üzerinde çapraz çizgi bulunan işaret “Bütün yasaklama ve kısıtlamaların sonu”dur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Hız sınırlaması sonu” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "y-hiz-50",
+   "y-tum-yasak-sonu",
+   "y-hiz-sonu",
+   "y-hiz-70"
+  ],
+  "a": 2,
+  "c": "Gri hız rakamı üzerinde çapraz çizgiler bulunan işaret “Hız sınırlaması sonu” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Yüksekliği 3,50 metreden fazla olan taşıt giremez” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "y-hiz-50",
+   "y-gabari",
+   "y-kamyon",
+   "y-tasit-kapali"
+  ],
+  "a": 1,
+  "c": "Gabari işaretinde uçları birbirine bakan dikey oklar ve yükseklik değeri bulunur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Karşıdan gelene yol ver” işaretidir?",
+  "og": true,
+  "o": [
+   "b-oncelikli-yon",
+   "t-iki-yonlu",
+   "b-tek-yon",
+   "y-karsidan-gelene"
+  ],
+  "a": 3,
+  "c": "“Karşıdan gelene yol ver” kırmızı kenarlı daire biçimli trafik tanzim işaretidir; mavi kare olan “Önceliği olan yön” ile karıştırılmamalıdır."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Dar bir yolda karşıdan gelen araçlara göre geçiş önceliğinin sizde olduğunu bildiren işaret hangisidir?",
+  "og": true,
+  "o": [
+   "y-karsidan-gelene",
+   "b-tek-yon",
+   "b-oncelikli-yon",
+   "m-ileri"
+  ],
+  "a": 2,
+  "c": "Mavi kare zeminli “Önceliği olan yön (karşıdan gelene göre)” işareti geçiş önceliğinin sizde olduğunu bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Girişi olmayan yol” işaretidir?",
+  "og": true,
+  "o": [
+   "y-girilmez",
+   "y-tasit-kapali",
+   "y-durma-park-yasak",
+   "y-tum-yasak-sonu"
+  ],
+  "a": 0,
+  "c": "Kırmızı daire ortasında beyaz yatay bant bulunan işaret “Girişi olmayan yol”dur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Taşıt trafiğine kapalı yol” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "y-girilmez",
+   "y-tum-yasak-sonu",
+   "y-tasit-kapali",
+   "y-park-yasak"
+  ],
+  "a": 2,
+  "c": "Kırmızı kenarlı, içi boş beyaz daire “Taşıt trafiğine kapalı yol” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Tali yoldan ana yola çıkan sürücünün karşılaşabileceği işaret aşağıdakilerden hangisidir?",
+  "og": true,
+  "o": [
+   "yol-ver",
+   "b-ana-yol",
+   "t-ana-tali",
+   "b-oncelikli-yon"
+  ],
+  "a": 0,
+  "c": "Tali yoldaki sürücüye “Yol ver” (veya “DUR”) işareti konur; “Ana yol” ve “Ana yol – tali yol kavşağı” ana yoldaki sürücüye yöneliktir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Ehli hayvanlar geçebilir” işaretidir?",
+  "og": true,
+  "o": [
+   "t-bisiklet",
+   "t-okul-gecidi",
+   "t-yaya-gecidi",
+   "t-evcil-hayvan"
+  ],
+  "a": 3,
+  "c": "Üçgen içinde inek sembolü bulunan işaret “Ehli hayvanlar geçebilir” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Okul geçidi” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "t-yaya-gecidi",
+   "t-okul-gecidi",
+   "b-yaya-gecidi",
+   "y-yaya-giremez"
+  ],
+  "a": 1,
+  "c": "“Okul geçidi” üçgen içinde iki çocuk sembolüyle gösterilir; tek yaya bulunan üçgen “Yaya geçidi”dir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Gizli buzlanma” işaretidir?",
+  "og": true,
+  "o": [
+   "t-gizli-buzlanma",
+   "t-kaygan-yol",
+   "t-gevsek-malzeme",
+   "t-yandan-ruzgar"
+  ],
+  "a": 0,
+  "c": "Üçgen içinde kar tanesi bulunan işaret “Gizli buzlanma” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Kaygan yol” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "t-gevsek-malzeme",
+   "t-gizli-buzlanma",
+   "t-kaygan-yol",
+   "t-kasisli"
+  ],
+  "a": 2,
+  "c": "Arkasında kıvrık patinaj izleri olan araç sembolü “Kaygan yol” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Gevşek malzemeli zemin” işaretidir?",
+  "og": true,
+  "o": [
+   "t-kaygan-yol",
+   "t-gevsek-malzeme",
+   "t-kasisli",
+   "t-yol-calismasi"
+  ],
+  "a": 1,
+  "c": "Tekerlekten sıçrayan taş sembolü bulunan işaret “Gevşek malzemeli zemin” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Kontrolsüz demiryolu geçidi” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "t-demiryolu-kontrollu",
+   "t-isikli",
+   "t-kiyi",
+   "t-demiryolu-kontrolsuz"
+  ],
+  "a": 3,
+  "c": "Lokomotif sembolü kontrolsüz, bariyer sembolü kontrollü demiryolu geçidini bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Tehlikeli eğim (iniş)” işaretidir?",
+  "og": true,
+  "o": [
+   "t-egim-cikis",
+   "t-kiyi",
+   "t-kasisli",
+   "t-egim-inis"
+  ],
+  "a": 3,
+  "c": "İnen eğim ve yüzde değeri çizilen üçgen “Tehlikeli eğim (iniş)” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Sola tehlikeli devamlı viraj” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "t-sola-viraj",
+   "t-devamli-viraj",
+   "t-saga-viraj",
+   "t-daralan-yol"
+  ],
+  "a": 1,
+  "c": "Önce sola kıvrılan çift kıvrımlı sembol “Sola tehlikeli devamlı viraj” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Deniz veya nehir kıyısında biten yol” işaretidir?",
+  "og": true,
+  "o": [
+   "t-kiyi",
+   "t-egim-inis",
+   "t-yandan-ruzgar",
+   "t-kaygan-yol"
+  ],
+  "a": 0,
+  "c": "Yolun kıyıda bitip suya ulaştığını gösteren dalgalı sembol “Deniz veya nehir kıyısında biten yol” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "“Yandan rüzgâr” anlamındaki trafik işareti hangisidir?",
+  "og": true,
+  "o": [
+   "t-diger-tehlike",
+   "t-kiyi",
+   "t-yandan-ruzgar",
+   "t-isikli"
+  ],
+  "a": 2,
+  "c": "Rüzgâr hortumu sembollü üçgen “Yandan rüzgâr” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi “Sağa mecburi yön” işaretidir?",
+  "og": true,
+  "o": [
+   "m-sagdan-git",
+   "m-saga",
+   "m-sola",
+   "y-sola-donulmez"
+  ],
+  "a": 1,
+  "c": "Mavi daire içinde sağa dönen beyaz ok “Sağa mecburi yön” işaretidir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi tehlike uyarı işaretidir?",
+  "og": true,
+  "o": [
+   "y-sollama",
+   "b-hastane",
+   "m-ileri",
+   "t-kasisli"
+  ],
+  "a": 3,
+  "c": "Kırmızı kenarlı üçgen biçimli “Kasisli yol” işareti tehlike uyarı işaretlerindendir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Aşağıdakilerden hangisi bilgi işaretidir?",
+  "og": true,
+  "o": [
+   "y-girilmez",
+   "m-ileri",
+   "b-cikmaz",
+   "t-diger-tehlike"
+  ],
+  "a": 2,
+  "c": "Mavi dikdörtgen zeminli “Çıkmaz yol” işareti bilgi işaretlerindendir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Kırmızı kenarlı, beyaz zeminli ve köşesi yukarıda eşkenar üçgen biçimindeki trafik işaretleri hangi gruptandır?",
+  "o": [
+   "Tehlike uyarı işaretleri",
+   "Trafik tanzim işaretleri",
+   "Bilgi işaretleri",
+   "Mecburiyet işaretleri"
+  ],
+  "a": 0,
+  "c": "Tehlike uyarı işaretleri kırmızı kenarlı üçgendir ve yaklaşan bir tehlikeyi bildirir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Mavi zeminli daire biçimindeki trafik işaretleri genellikle neyi bildirir?",
+  "o": [
+   "Yaklaşan bir tehlikeyi",
+   "Bir yasağın sona erdiğini",
+   "Uyulması zorunlu yön veya kuralı",
+   "Yakındaki tesisleri"
+  ],
+  "a": 2,
+  "c": "Mavi daire biçimli işaretler mecburiyet bildiren trafik tanzim işaretleridir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Beyaz zeminli ve kırmızı kenarlı daire biçimindeki trafik işaretleri genellikle neyi bildirir?",
+  "o": [
+   "Yasaklama veya kısıtlamayı",
+   "Yaklaşan tehlikeyi",
+   "Yön ve tesis bilgisini",
+   "Ana yolda olunduğunu"
+  ],
+  "a": 0,
+  "c": "Kırmızı kenarlı daireler yasaklama ve kısıtlama bildiren trafik tanzim işaretleridir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Yol kullanıcılarına yön, yer, tesis ve yol hakkında bilgi veren, genellikle mavi dikdörtgen zeminli işaretler hangi gruptandır?",
+  "o": [
+   "Tehlike uyarı işaretleri",
+   "Trafik tanzim işaretleri",
+   "Yatay işaretlemeler",
+   "Bilgi işaretleri"
+  ],
+  "a": 3,
+  "c": "Mavi dikdörtgen ya da kare zeminli işaretler bilgi işaretleridir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Kırmızı sekizgen biçimli ve üzerinde beyaz harflerle yazı bulunan trafik işareti hangisidir?",
+  "o": [
+   "Yol ver",
+   "DUR",
+   "Girişi olmayan yol",
+   "Taşıt trafiğine kapalı yol"
+  ],
+  "a": 1,
+  "c": "Sekizgen biçimiyle diğer işaretlerden ayrılan “DUR” işaretinde sürücü mutlaka durur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Köşesi aşağıya bakan, kırmızı kenarlı beyaz ters üçgen biçimindeki trafik işareti hangisidir?",
+  "o": [
+   "Yol ver",
+   "Dikkat",
+   "DUR",
+   "Ana yol"
+  ],
+  "a": 0,
+  "c": "Ters üçgen biçimiyle tanınan “Yol ver” işareti tali yoldan ana yola çıkan sürücüye yöneliktir."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Bir yasaklama veya kısıtlamanın sona erdiğini bildiren işaretlerin ortak özelliği aşağıdakilerden hangisidir?",
+  "o": [
+   "Mavi zemin üzerinde beyaz ok bulunması",
+   "Kırmızı zemin üzerinde beyaz bant bulunması",
+   "Beyaz zemin üzerinde çapraz çizgiler bulunması",
+   "Sarı zemin üzerinde siyah sembol bulunması"
+  ],
+  "a": 2,
+  "c": "“Geçme yasağı sonu”, “Hız sınırlaması sonu” gibi işaretlerde beyaz daire üzerinde çapraz çizgiler bulunur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik işaretleri",
+  "q": "Tehlike uyarı işaretlerini gören sürücünün öncelikle yapması gereken aşağıdakilerden hangisidir?",
+  "o": [
+   "Hızını artırıp tehlikeli bölgeden çabuk çıkmak",
+   "Hızını azaltıp dikkatli olmak",
+   "Aracını hemen yol kenarına park etmek",
+   "Sesli işaret vererek ilerlemek"
+  ],
+  "a": 1,
+  "c": "Tehlike uyarı işaretleri ileride bir tehlike olduğunu bildirir; sürücü yavaşlar ve dikkatini artırır."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik polisi",
+  "q": "Trafik görevlisinin sağ ve sol kol istikametindeki yollar için aşağıdakilerden hangisi doğrudur?",
+  "o": [
+   "Bu yollar trafiğe kapalıdır.",
+   "Bu yollarda yalnız yayalar geçebilir.",
+   "Bu yollardaki araçlar hızlanmalıdır.",
+   "Bu yollar trafiğe açıktır."
+  ],
+  "a": 3,
+  "c": "Trafik görevlisinin sağ ve sol kol istikametindeki yollar açık, ön ve arka cephesindeki yollar kapalıdır."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik polisi",
+  "q": "Trafik görevlisinin ön ve arka cephesine gelen yollardaki sürücüler ne yapmalıdır?",
+  "o": [
+   "Geçmelidir.",
+   "Yalnızca sağa dönebilir.",
+   "Yalnızca sola dönebilir.",
+   "Durmalıdır."
+  ],
+  "a": 3,
+  "c": "Görevlinin ön ve arka cephesindeki yollar trafiğe kapalıdır; bu yönlerden gelenler durur."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik polisi",
+  "q": "Trafik görevlisinin bir kolu yukarıda, diğer kolu aşağıda iken verdiği işaret aşağıdakilerden hangisini bildirir?",
+  "o": [
+   "Bütün yolların trafiğe açıldığını",
+   "Trafiğin bütün istikametlere kapandığını (dikkat)",
+   "Yalnızca sola dönüşlerin serbest olduğunu",
+   "Taşıtların hızlanması gerektiğini"
+  ],
+  "a": 1,
+  "c": "Bir kol yukarı, bir kol aşağı işareti trafiğin bütün istikametlere kapanması (dikkat) anlamındadır."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik polisi",
+  "q": "Trafik görevlisinin kolunu omuz hizasında yukarı-aşağı sallaması sürücülere neyi bildirir?",
+  "o": [
+   "Yavaşla",
+   "Hızlan",
+   "Dur ve geri çekil",
+   "Sola dön"
+  ],
+  "a": 0,
+  "c": "Kolun omuz hizasında yukarı-aşağı sallanması “yavaşla” anlamındadır."
+ },
+ {
+  "d": "trafik",
+  "k": "Trafik polisi",
+  "q": "Bir kavşakta trafik görevlisinin işareti ile ışıklı işaret farklı şey bildiriyorsa sürücü hangisine uymalıdır?",
+  "o": [
+   "Işıklı işarete",
+   "Trafik işaret levhalarına",
+   "Trafik görevlisinin işaretine",
+   "Kendi geçiş hakkına göre karar vermeye"
+  ],
+  "a": 2,
+  "c": "Trafik görevlisinin işaret ve talimatları ışıklı işaretlerden ve işaret levhalarından önce gelir."
+ },
+ {
+  "d": "trafik",
+  "k": "Işıklı işaretler",
+  "q": "Aralıklı olarak yanıp sönen kırmızı ışık sürücüye aşağıdakilerden hangisini bildirir?",
+  "o": [
+   "Yavaşlamadan geçebileceğini",
+   "“DUR” işareti anlamında durup kontrol ettikten sonra geçmesini",
+   "Yeşil ışığın yanmak üzere olduğunu",
+   "Yalnızca sağa dönebileceğini"
+  ],
+  "a": 1,
+  "c": "Aralıklı yanıp sönen kırmızı ışık “DUR” levhası anlamındadır: durulur, yol kontrol edilir, sonra geçilir."
+ },
+ {
+  "d": "trafik",
+  "k": "Işıklı işaretler",
+  "q": "Kırmızı ışıkla birlikte sağa dönüşü gösteren yeşil ok yanıyorsa sürücü ne yapabilir?",
+  "o": [
+   "Düz ilerleyebilir.",
+   "Sola dönebilir.",
+   "Hiçbir yöne hareket edemez.",
+   "Yayalara ve diğer akıma yol vererek sağa dönebilir."
+  ],
+  "a": 3,
+  "c": "Kırmızı ışıkla birlikte yanan yeşil ok, yalnız ok yönüne yol vererek dönülebileceğini bildirir."
+ }
+]
