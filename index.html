@@ -1091,7 +1091,7 @@ const fbUrl = (kod, yol) => `${FB}/odalar/${kod}/${yol}.json`;
 const izleLink = () => `${SITE}?izle=${S.canli.kod}`;
 const yeniKod = () => [...crypto.getRandomValues(new Uint8Array(16))].map(b => "abcdefghjkmnpqrstuvwxyz23456789"[b % 31]).join("");
 const yardimBtn = () => canliAcik() ? `<button class="yardim-btn" id="yardim" aria-label="Eşinden yardım iste">🙋 Yardım</button>` : "";
-const JOKER_LIMIT = {yari:1, ipucu:3, sure:2, fisilda:1};
+const JOKER_LIMIT = {}; // jokerler sınırsız (sınır koymak için ör. {yari:1})
 
 function canliDurum() {
   if (E) { const q = E.sorular[E.i];
@@ -1238,7 +1238,7 @@ function izleyici(kod) {
     const J = (d && d.joker) || {};
     jk.innerHTML = JOK.map(([id, ad, ac]) => { const lim = JOKER_LIMIT[id], kalan = lim ? lim - (J[id] || 0) : null;
       const kapali = !aktif || (lim && kalan <= 0) || (id === "sure" && d.ekran !== "sinav") || (["yari", "ipucu", "fisilda"].includes(id) && d.cevaplandi);
-      return `<button data-j="${id}" ${kapali ? "disabled" : ""}>${ad}${lim ? ` (${kalan})` : ""}<small>${ac}</small></button>`; }).join("");
+      return `<button data-j="${id}" ${kapali ? "disabled" : ""}>${ad}${lim ? ` (${kalan})` : J[id] ? ` · ${J[id]}×` : ""}<small>${ac}</small></button>`; }).join("");
     jk.querySelectorAll("button").forEach(b => b.onclick = () => gonder(b.dataset.j, {qid:W.d?.qid || ""}));
     sureCiz();
   };
